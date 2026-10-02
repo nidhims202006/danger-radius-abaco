@@ -1,0 +1,11 @@
+Comparison,Outcome,N,DR-T (%),Comparator (%),Difference (pp),95% bootstrap CI (pp),Exact McNemar p,Holm p
+DR-T vs HBP,success,200,72.5,75.0,-2.5,"[-8.5, +3.5]",0.511376,1
+DR-T vs HBP,collision,200,18.0,26.5,-8.5,"[-15.0, -2.0]",0.0240929,0.148895
+DR-T vs HB,success,200,72.5,69.0,+3.5,"[-1.5, +8.5]",0.247789,0.991154
+DR-T vs HB,collision,200,18.0,31.0,-13.0,"[-20.0, -6.0]",0.000409541,0.00327633
+DR-T vs DR-SAFE,success,200,72.5,67.5,+5.0,"[+1.0, +9.0]",0.0212708,0.148895
+DR-T vs DR-SAFE,collision,200,18.0,23.0,-5.0,"[-9.0, -1.0]",0.0413895,0.206947
+DR-T vs ACO+DWA,success,200,72.5,95.5,-23.0,"[-29.0, -17.0]",2.26663e-12,2.03997e-11
+DR-T vs ACO+DWA,collision,200,18.0,16.0,+2.0,"[-4.5, +8.0]",0.643969,1
+DR-T vs D* Lite+DWA,success,200,72.5,100.0,-27.5,"[-33.5, -21.5]",5.55112e-17,5.55112e-16
+DR-T vs D* Lite+DWA,collision,200,18.0,22.5,-4.5,"[-12.5, +3.5]",0.313503,0.991154

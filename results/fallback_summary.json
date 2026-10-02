@@ -1,0 +1,39 @@
+{
+ "n_seeds": 300,
+ "TA": {
+  "reproduces_stored_fb": true,
+  "selection_calls_per_run": 172816.47333333333,
+  "fallbacks_per_run": 71.48666666666666,
+  "fallback_share_of_selection_steps_pooled": 0.0004136565530346239,
+  "fallback_share_per_run_mean": 0.00041099217926436003,
+  "constructions_per_run": 4000.0,
+  "share_constructions_with_fallback": 0.017260833333333333,
+  "runs_best_path_has_fallback": 0,
+  "runs_total": 300,
+  "share_runs_best_path_has_fallback": 0.0,
+  "mean_fallback_steps_on_best_path": 0.0,
+  "share_of_steps_on_best_path_fallback": 0.0,
+  "collision_runs": 12,
+  "collision_runs_with_best_fb": 0,
+  "collision_rate_best_fb": null,
+  "collision_rate_best_nofb": 0.04
+ },
+ "TB": {
+  "reproduces_stored_fb": true,
+  "selection_calls_per_run": 171965.69,
+  "fallbacks_per_run": 2558.423333333333,
+  "fallback_share_of_selection_steps_pooled": 0.014877521983212658,
+  "fallback_share_per_run_mean": 0.0148878118178947,
+  "constructions_per_run": 4000.0,
+  "share_constructions_with_fallback": 0.31297583333333334,
+  "runs_best_path_has_fallback": 88,
+  "runs_total": 300,
+  "share_runs_best_path_has_fallback": 0.29333333333333333,
+  "mean_fallback_steps_on_best_path": 0.45666666666666667,
+  "share_of_steps_on_best_path_fallback": 0.013576454266177783,
+  "collision_runs": 17,
+  "collision_runs_with_best_fb": 15,
+  "collision_rate_best_fb": 0.17045454545454544,
+  "collision_rate_best_nofb": 0.009433962264150943
+ }
+}

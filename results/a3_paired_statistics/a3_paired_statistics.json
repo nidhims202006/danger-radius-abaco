@@ -1,0 +1,216 @@
+{
+  "protocol": {
+    "analysis": "A3 paired closed-loop statistics",
+    "family": "10 post hoc tests: 5 comparisons x 2 binary outcomes",
+    "family_status": "post hoc; the family was never frozen",
+    "unit": "scenario",
+    "scenario_ids": [
+      4,
+      203
+    ],
+    "n_scenarios": 200,
+    "tests": "exact two-sided McNemar",
+    "multiplicity": "Holm correction across all 10 tests",
+    "bootstrap": "95% percentile CI for paired scenario-level difference in percentage points",
+    "bootstrap_replicates": 4000,
+    "primary_source": "results/phase2_step3_v2/perrun.json",
+    "strong_baseline_source": "results/phase2_strong_baselines_perrun.json",
+    "shifted_index_source": "results/a1_sensitivity/perrun_v3.json"
+  },
+  "rows": [
+    {
+      "comparison": "DR-T vs HBP",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 75.0,
+      "difference_pct_points": -2.5,
+      "bootstrap_ci95_pct_points": [
+        -8.5,
+        3.5000000000000004
+      ],
+      "mcnemar_exact_p": 0.5113757815852296,
+      "discordant_dr_t_0_comparator_1": 21,
+      "discordant_dr_t_1_comparator_0": 16,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "comparison": "DR-T vs HBP",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 26.5,
+      "difference_pct_points": -8.5,
+      "bootstrap_ci95_pct_points": [
+        -15.0,
+        -1.9874999999999545
+      ],
+      "mcnemar_exact_p": 0.024092907698449295,
+      "discordant_dr_t_0_comparator_1": 34,
+      "discordant_dr_t_1_comparator_0": 17,
+      "holm_adjusted_p": 0.148895263671875
+    },
+    {
+      "comparison": "DR-T vs HB",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 69.0,
+      "difference_pct_points": 3.5000000000000004,
+      "bootstrap_ci95_pct_points": [
+        -1.5,
+        8.5
+      ],
+      "mcnemar_exact_p": 0.24778856337070465,
+      "discordant_dr_t_0_comparator_1": 10,
+      "discordant_dr_t_1_comparator_0": 17,
+      "holm_adjusted_p": 0.9911542534828186
+    },
+    {
+      "comparison": "DR-T vs HB",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 31.0,
+      "difference_pct_points": -13.0,
+      "bootstrap_ci95_pct_points": [
+        -20.0,
+        -6.0
+      ],
+      "mcnemar_exact_p": 0.0004095414537825804,
+      "discordant_dr_t_0_comparator_1": 39,
+      "discordant_dr_t_1_comparator_0": 13,
+      "holm_adjusted_p": 0.003276331630260643
+    },
+    {
+      "comparison": "DR-T vs DR-SAFE",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 67.5,
+      "difference_pct_points": 5.0,
+      "bootstrap_ci95_pct_points": [
+        1.0,
+        9.0
+      ],
+      "mcnemar_exact_p": 0.021270751953125,
+      "discordant_dr_t_0_comparator_1": 3,
+      "discordant_dr_t_1_comparator_0": 13,
+      "holm_adjusted_p": 0.148895263671875
+    },
+    {
+      "comparison": "DR-T vs DR-SAFE",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 23.0,
+      "difference_pct_points": -5.0,
+      "bootstrap_ci95_pct_points": [
+        -9.0,
+        -1.0
+      ],
+      "mcnemar_exact_p": 0.04138946533203125,
+      "discordant_dr_t_0_comparator_1": 15,
+      "discordant_dr_t_1_comparator_0": 5,
+      "holm_adjusted_p": 0.20694732666015625
+    },
+    {
+      "comparison": "DR-T vs ACO+DWA",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 95.5,
+      "difference_pct_points": -23.0,
+      "bootstrap_ci95_pct_points": [
+        -28.999999999999996,
+        -17.0
+      ],
+      "mcnemar_exact_p": 2.2666313270747196e-12,
+      "discordant_dr_t_0_comparator_1": 48,
+      "discordant_dr_t_1_comparator_0": 2,
+      "holm_adjusted_p": 2.0399681943672476e-11
+    },
+    {
+      "comparison": "DR-T vs ACO+DWA",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 16.0,
+      "difference_pct_points": 2.0,
+      "bootstrap_ci95_pct_points": [
+        -4.5,
+        8.012500000000045
+      ],
+      "mcnemar_exact_p": 0.6439689563703723,
+      "discordant_dr_t_0_comparator_1": 19,
+      "discordant_dr_t_1_comparator_0": 23,
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "comparison": "DR-T vs D* Lite+DWA",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 100.0,
+      "difference_pct_points": -27.500000000000004,
+      "bootstrap_ci95_pct_points": [
+        -33.5,
+        -21.5
+      ],
+      "mcnemar_exact_p": 5.551115123125783e-17,
+      "discordant_dr_t_0_comparator_1": 55,
+      "discordant_dr_t_1_comparator_0": 0,
+      "holm_adjusted_p": 5.551115123125783e-16
+    },
+    {
+      "comparison": "DR-T vs D* Lite+DWA",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 22.5,
+      "difference_pct_points": -4.5,
+      "bootstrap_ci95_pct_points": [
+        -12.5,
+        3.5000000000000004
+      ],
+      "mcnemar_exact_p": 0.31350305329645284,
+      "discordant_dr_t_0_comparator_1": 36,
+      "discordant_dr_t_1_comparator_0": 27,
+      "holm_adjusted_p": 0.9911542534828186
+    }
+  ],
+  "shifted_index_extra_rows": [
+    {
+      "comparison": "DR-T vs HBP",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.0,
+      "comparator_rate_pct": 76.0,
+      "difference_pct_points": -4.0,
+      "bootstrap_ci95_pct_points": [
+        -10.5,
+        2.5
+      ],
+      "mcnemar_exact_p": 0.27995623852893914,
+      "discordant_dr_t_0_comparator_1": 25,
+      "discordant_dr_t_1_comparator_0": 17,
+      "indexing": "A1 shifted: prediction index = step + 1"
+    },
+    {
+      "comparison": "DR-T vs HBP",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 21.5,
+      "comparator_rate_pct": 33.0,
+      "difference_pct_points": -11.5,
+      "bootstrap_ci95_pct_points": [
+        -19.5,
+        -3.5000000000000004
+      ],
+      "mcnemar_exact_p": 0.006741447363103123,
+      "discordant_dr_t_0_comparator_1": 45,
+      "discordant_dr_t_1_comparator_0": 22,
+      "indexing": "A1 shifted: prediction index = step + 1"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task": "1.1",
+  "date": "2026-09-30",
+  "reference": "results/ablation_main.json / frozen v22 SOFT",
+  "candidate": {"R": 5.5, "K": 4.5, "D_SAFE": 0.0},
+  "seeds": "10000-10299",
+  "selection_note": "Candidate selected after exploratory inspection of seeds 10000-10019; therefore this is engineering evidence, not confirmation evidence.",
+  "metrics": {
+    "len": {"old_mean": 34.6457568516986, "new_mean": 34.85613397044437, "difference_new_minus_old": 0.210376, "ci95": [-0.023655, 0.444406], "wilcoxon_p": 0.10853086384552002},
+    "turns": {"old_mean": 12.286666666666667, "new_mean": 12.326666666666667, "difference_new_minus_old": 0.04, "ci95": [-0.523727, 0.603727], "wilcoxon_p": 0.9739220786204253},
+    "clear": {"old_mean": 2.2699310482781248, "new_mean": 2.332173304890291, "difference_new_minus_old": 0.062242, "ci95": [-0.144151, 0.268635], "wilcoxon_p": 0.6474169110111646},
+    "coll": {"old_mean": 0.05, "new_mean": 0.03666666666666667, "difference_new_minus_old": -0.013333333333333334, "ci95": [-0.050454, 0.023788], "wilcoxon_p": 0.4977799260111646}
+  },
+  "collision_totals": {"frozen_v22": 15, "continuous_candidate": 11},
+  "status": "engineering_criterion_closed; final_confirmation_pending"
+}

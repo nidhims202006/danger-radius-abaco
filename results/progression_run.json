@@ -1,0 +1,16 @@
+{
+ "seed": 20000,
+ "drsafe": {
+  "collisions": 0,
+  "clearance": 1.0,
+  "turns": 14,
+  "length": 33.41421356237309,
+  "fallbacks": 3005
+ },
+ "apf": {
+  "collisions": 0,
+  "clearance": 1.0,
+  "turns": 16,
+  "length": 34.82842712474619
+ }
+}

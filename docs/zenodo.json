@@ -1,0 +1,14 @@
+{
+  "title": "Danger-Radius ABACO reproducibility archive",
+  "description": "Simulation code, analysis scripts, stored results and manuscript reproducibility materials for the Danger-Radius dynamic-obstacle study.",
+  "upload_type": "software",
+  "license": "MIT",
+  "version": "v29",
+  "keywords": [
+    "ABACO",
+    "ant colony optimization",
+    "dynamic obstacle avoidance",
+    "mobile robot",
+    "path planning"
+  ]
+}

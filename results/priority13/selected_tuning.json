@@ -1,0 +1,89 @@
+{
+  "HB": {
+    "params": {
+      "ants": 60,
+      "iterations": 50,
+      "label": "a60_i50"
+    },
+    "score": 0.24194444444444446,
+    "n": 30,
+    "collision_rate": 0.26666666666666666,
+    "failure_rate": 0.0,
+    "mean_turns_successful": 13.033333333333333
+  },
+  "HBP_n1": {
+    "params": {
+      "ants": 20,
+      "iterations": 100,
+      "label": "a20_i100"
+    },
+    "score": 0.18,
+    "n": 30,
+    "collision_rate": 0.1,
+    "failure_rate": 0.0,
+    "mean_turns_successful": 15.6
+  },
+  "APFP_n1": {
+    "params": {
+      "ants": 40,
+      "iterations": 50,
+      "eta": 2.0,
+      "label": "a40_i50_e2"
+    },
+    "score": 0.1486111111111111,
+    "n": 30,
+    "collision_rate": 0.06666666666666667,
+    "failure_rate": 0.0,
+    "mean_turns_successful": 13.833333333333334
+  },
+  "HBP_n": {
+    "params": {
+      "ants": 60,
+      "iterations": 50,
+      "label": "a60_i50"
+    },
+    "score": 0.15888888888888889,
+    "n": 30,
+    "collision_rate": 0.1,
+    "failure_rate": 0.0,
+    "mean_turns_successful": 13.066666666666666
+  },
+  "APFP_n": {
+    "params": {
+      "ants": 20,
+      "iterations": 50,
+      "eta": 1.0,
+      "label": "a20_i50_e1"
+    },
+    "score": 0.17805555555555555,
+    "n": 30,
+    "collision_rate": 0.03333333333333333,
+    "failure_rate": 0.0,
+    "mean_turns_successful": 19.366666666666667
+  },
+  "HBP_n3": {
+    "params": {
+      "ants": 60,
+      "iterations": 100,
+      "label": "a60_i100"
+    },
+    "score": 0.19944444444444445,
+    "n": 30,
+    "collision_rate": 0.2,
+    "failure_rate": 0.0,
+    "mean_turns_successful": 11.933333333333334
+  },
+  "APFP_n3": {
+    "params": {
+      "ants": 60,
+      "iterations": 50,
+      "eta": 4.0,
+      "label": "a60_i50_e4"
+    },
+    "score": 0.15166666666666667,
+    "n": 30,
+    "collision_rate": 0.1,
+    "failure_rate": 0.0,
+    "mean_turns_successful": 12.2
+  }
+}

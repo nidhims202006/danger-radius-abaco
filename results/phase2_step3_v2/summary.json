@@ -1,0 +1,80 @@
+{
+  "DR-SAFE": {
+    "n": 200,
+    "success_rate": 0.675,
+    "collision_rate": 0.23,
+    "zero_distance": 1,
+    "mean_distance": 37.54834628909516,
+    "mean_min_clearance": 1.6847739436723008,
+    "mean_planning_time_s": 2.369666212589991,
+    "mean_replans": 6.4,
+    "floor_relaxation_runs": 193,
+    "total_floor_relaxations": 7618,
+    "median_time_to_goal": 36.5
+  },
+  "DR-T": {
+    "n": 200,
+    "success_rate": 0.725,
+    "collision_rate": 0.18,
+    "zero_distance": 0,
+    "mean_distance": 38.42716879903424,
+    "mean_min_clearance": 1.6676441287126473,
+    "mean_planning_time_s": 1.9026146887550022,
+    "mean_replans": 6.54,
+    "floor_relaxation_runs": 0,
+    "total_floor_relaxations": 0,
+    "median_time_to_goal": 34.0
+  },
+  "HB": {
+    "n": 200,
+    "success_rate": 0.69,
+    "collision_rate": 0.31,
+    "zero_distance": 0,
+    "mean_distance": 37.61785422398348,
+    "mean_min_clearance": 1.2635995999233212,
+    "mean_planning_time_s": 2.1269375032650077,
+    "mean_replans": 6.41,
+    "floor_relaxation_runs": 0,
+    "total_floor_relaxations": 0,
+    "median_time_to_goal": 30.0
+  },
+  "HBP": {
+    "n": 200,
+    "success_rate": 0.75,
+    "collision_rate": 0.265,
+    "zero_distance": 0,
+    "mean_distance": 37.83892024116146,
+    "mean_min_clearance": 1.3864315713027362,
+    "mean_planning_time_s": 1.945502904250004,
+    "mean_replans": 6.45,
+    "floor_relaxation_runs": 0,
+    "total_floor_relaxations": 0,
+    "median_time_to_goal": 30.5
+  },
+  "dstar_dwa": {
+    "n": 200,
+    "success_rate": 1.0,
+    "collision_rate": 0.225,
+    "zero_distance": 0,
+    "mean_distance": 28.68676295363608,
+    "mean_min_clearance": 1.596937705523489,
+    "mean_planning_time_s": 0.13694690466005796,
+    "mean_replans": 21.175,
+    "floor_relaxation_runs": 0,
+    "total_floor_relaxations": 0,
+    "median_time_to_goal": 24.0
+  },
+  "space_time_astar": {
+    "n": 200,
+    "success_rate": 0.88,
+    "collision_rate": 0.215,
+    "zero_distance": 7,
+    "mean_distance": 25.728960287295028,
+    "mean_min_clearance": 2.1435903518410204,
+    "mean_planning_time_s": 0.02034524043498209,
+    "mean_replans": 4.25,
+    "floor_relaxation_runs": 0,
+    "total_floor_relaxations": 0,
+    "median_time_to_goal": 25.0
+  }
+}

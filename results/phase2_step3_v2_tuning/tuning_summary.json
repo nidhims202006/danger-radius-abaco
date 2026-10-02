@@ -1,0 +1,565 @@
+{
+  "HB": {
+    "best": {
+      "method": "HB",
+      "params": {
+        "ants": 16,
+        "iterations": 20,
+        "label": "a16_i20"
+      },
+      "score": 0.3277777777777778,
+      "collision_rate": 0.0,
+      "median_time_to_goal": 29.5,
+      "n": 4
+    },
+    "candidates": [
+      {
+        "method": "HB",
+        "params": {
+          "ants": 16,
+          "iterations": 20,
+          "label": "a16_i20"
+        },
+        "score": 0.3277777777777778,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 29.5,
+        "n": 4
+      },
+      {
+        "method": "HB",
+        "params": {
+          "ants": 16,
+          "iterations": 10,
+          "label": "a16_i10"
+        },
+        "score": 0.34444444444444444,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 31.0,
+        "n": 4
+      },
+      {
+        "method": "HB",
+        "params": {
+          "ants": 12,
+          "iterations": 10,
+          "label": "a12_i10"
+        },
+        "score": 0.37222222222222223,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 33.5,
+        "n": 4
+      },
+      {
+        "method": "HB",
+        "params": {
+          "ants": 12,
+          "iterations": 20,
+          "label": "a12_i20"
+        },
+        "score": 0.37222222222222223,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 33.5,
+        "n": 4
+      },
+      {
+        "method": "HB",
+        "params": {
+          "ants": 8,
+          "iterations": 10,
+          "label": "a8_i10"
+        },
+        "score": 0.3888888888888889,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 35.0,
+        "n": 4
+      },
+      {
+        "method": "HB",
+        "params": {
+          "ants": 8,
+          "iterations": 20,
+          "label": "a8_i20"
+        },
+        "score": 0.3888888888888889,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 35.0,
+        "n": 4
+      }
+    ]
+  },
+  "HBP": {
+    "best": {
+      "method": "HBP",
+      "params": {
+        "ants": 16,
+        "iterations": 20,
+        "label": "a16_i20"
+      },
+      "score": 0.3277777777777778,
+      "collision_rate": 0.0,
+      "median_time_to_goal": 29.5,
+      "n": 4
+    },
+    "candidates": [
+      {
+        "method": "HBP",
+        "params": {
+          "ants": 16,
+          "iterations": 20,
+          "label": "a16_i20"
+        },
+        "score": 0.3277777777777778,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 29.5,
+        "n": 4
+      },
+      {
+        "method": "HBP",
+        "params": {
+          "ants": 16,
+          "iterations": 10,
+          "label": "a16_i10"
+        },
+        "score": 0.34444444444444444,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 31.0,
+        "n": 4
+      },
+      {
+        "method": "HBP",
+        "params": {
+          "ants": 12,
+          "iterations": 10,
+          "label": "a12_i10"
+        },
+        "score": 0.37222222222222223,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 33.5,
+        "n": 4
+      },
+      {
+        "method": "HBP",
+        "params": {
+          "ants": 12,
+          "iterations": 20,
+          "label": "a12_i20"
+        },
+        "score": 0.37222222222222223,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 33.5,
+        "n": 4
+      },
+      {
+        "method": "HBP",
+        "params": {
+          "ants": 8,
+          "iterations": 10,
+          "label": "a8_i10"
+        },
+        "score": 0.3888888888888889,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 35.0,
+        "n": 4
+      },
+      {
+        "method": "HBP",
+        "params": {
+          "ants": 8,
+          "iterations": 20,
+          "label": "a8_i20"
+        },
+        "score": 0.3888888888888889,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 35.0,
+        "n": 4
+      }
+    ]
+  },
+  "DR-T": {
+    "best": {
+      "method": "DR-T",
+      "params": {
+        "R": 3.5,
+        "K": 0.5,
+        "ants": 12,
+        "iterations": 20,
+        "label": "R3.5_K0.5"
+      },
+      "score": 0.29444444444444445,
+      "collision_rate": 0.0,
+      "median_time_to_goal": 26.5,
+      "n": 4
+    },
+    "candidates": [
+      {
+        "method": "DR-T",
+        "params": {
+          "R": 3.5,
+          "K": 0.5,
+          "ants": 12,
+          "iterations": 20,
+          "label": "R3.5_K0.5"
+        },
+        "score": 0.29444444444444445,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 26.5,
+        "n": 4
+      },
+      {
+        "method": "DR-T",
+        "params": {
+          "R": 4.5,
+          "K": 0.5,
+          "ants": 12,
+          "iterations": 20,
+          "label": "R4.5_K0.5"
+        },
+        "score": 0.35,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 31.5,
+        "n": 4
+      },
+      {
+        "method": "DR-T",
+        "params": {
+          "R": 3.5,
+          "K": 1,
+          "ants": 12,
+          "iterations": 20,
+          "label": "R3.5_K1"
+        },
+        "score": 0.37777777777777777,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 34.0,
+        "n": 4
+      },
+      {
+        "method": "DR-T",
+        "params": {
+          "R": 5.5,
+          "K": 0.5,
+          "ants": 12,
+          "iterations": 20,
+          "label": "R5.5_K0.5"
+        },
+        "score": 0.3888888888888889,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 35.0,
+        "n": 4
+      },
+      {
+        "method": "DR-T",
+        "params": {
+          "R": 5.5,
+          "K": 1,
+          "ants": 12,
+          "iterations": 20,
+          "label": "R5.5_K1"
+        },
+        "score": 0.39444444444444443,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 35.5,
+        "n": 4
+      },
+      {
+        "method": "DR-T",
+        "params": {
+          "R": 4.5,
+          "K": 1,
+          "ants": 12,
+          "iterations": 20,
+          "label": "R4.5_K1"
+        },
+        "score": 0.5138888888888888,
+        "collision_rate": 0.25,
+        "median_time_to_goal": 35.0,
+        "n": 4
+      }
+    ]
+  },
+  "DR-SAFE": {
+    "best": {
+      "method": "DR-SAFE",
+      "params": {
+        "R": 3.5,
+        "K": 0.5,
+        "D_SAFE": 0.75,
+        "ants": 12,
+        "iterations": 20,
+        "label": "R3.5_K0.5_D0.75"
+      },
+      "score": 0.29444444444444445,
+      "collision_rate": 0.0,
+      "median_time_to_goal": 26.5,
+      "n": 4
+    },
+    "candidates": [
+      {
+        "method": "DR-SAFE",
+        "params": {
+          "R": 3.5,
+          "K": 0.5,
+          "D_SAFE": 0.75,
+          "ants": 12,
+          "iterations": 20,
+          "label": "R3.5_K0.5_D0.75"
+        },
+        "score": 0.29444444444444445,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 26.5,
+        "n": 4
+      },
+      {
+        "method": "DR-SAFE",
+        "params": {
+          "R": 4.5,
+          "K": 1,
+          "D_SAFE": 1.5,
+          "ants": 12,
+          "iterations": 20,
+          "label": "R4.5_K1_D1.5"
+        },
+        "score": 0.34444444444444444,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 31.0,
+        "n": 4
+      },
+      {
+        "method": "DR-SAFE",
+        "params": {
+          "R": 4.5,
+          "K": 0.5,
+          "D_SAFE": 1,
+          "ants": 12,
+          "iterations": 20,
+          "label": "R4.5_K0.5_D1"
+        },
+        "score": 0.35,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 31.5,
+        "n": 4
+      },
+      {
+        "method": "DR-SAFE",
+        "params": {
+          "R": 5.5,
+          "K": 1,
+          "D_SAFE": 1.5,
+          "ants": 12,
+          "iterations": 20,
+          "label": "R5.5_K1_D1.5"
+        },
+        "score": 0.36666666666666664,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 33.0,
+        "n": 4
+      },
+      {
+        "method": "DR-SAFE",
+        "params": {
+          "R": 3.5,
+          "K": 1,
+          "D_SAFE": 1,
+          "ants": 12,
+          "iterations": 20,
+          "label": "R3.5_K1_D1"
+        },
+        "score": 0.37777777777777777,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 34.0,
+        "n": 4
+      },
+      {
+        "method": "DR-SAFE",
+        "params": {
+          "R": 5.5,
+          "K": 0.5,
+          "D_SAFE": 1,
+          "ants": 12,
+          "iterations": 20,
+          "label": "R5.5_K0.5_D1"
+        },
+        "score": 0.3888888888888889,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 35.0,
+        "n": 4
+      }
+    ]
+  },
+  "space_time_astar": {
+    "best": {
+      "method": "space_time_astar",
+      "params": {
+        "horizon": 30,
+        "label": "h30"
+      },
+      "score": 0.23333333333333334,
+      "collision_rate": 0.0,
+      "median_time_to_goal": 21.0,
+      "n": 4
+    },
+    "candidates": [
+      {
+        "method": "space_time_astar",
+        "params": {
+          "horizon": 30,
+          "label": "h30"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "space_time_astar",
+        "params": {
+          "horizon": 40,
+          "label": "h40"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "space_time_astar",
+        "params": {
+          "horizon": 50,
+          "label": "h50"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "space_time_astar",
+        "params": {
+          "horizon": 60,
+          "label": "h60"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "space_time_astar",
+        "params": {
+          "horizon": 70,
+          "label": "h70"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "space_time_astar",
+        "params": {
+          "horizon": 20,
+          "label": "h20"
+        },
+        "score": 0.34444444444444444,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 31.0,
+        "n": 4
+      }
+    ]
+  },
+  "dstar_dwa": {
+    "best": {
+      "method": "dstar_dwa",
+      "params": {
+        "progress_weight": 1,
+        "clearance_weight": 0.1,
+        "max_expansions": 50,
+        "label": "p1_c0.1"
+      },
+      "score": 0.25555555555555554,
+      "collision_rate": 0.0,
+      "median_time_to_goal": 23.0,
+      "n": 4
+    },
+    "candidates": [
+      {
+        "method": "dstar_dwa",
+        "params": {
+          "progress_weight": 1,
+          "clearance_weight": 0.1,
+          "max_expansions": 50,
+          "label": "p1_c0.1"
+        },
+        "score": 0.25555555555555554,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 23.0,
+        "n": 4
+      },
+      {
+        "method": "dstar_dwa",
+        "params": {
+          "progress_weight": 1,
+          "clearance_weight": 0.25,
+          "max_expansions": 50,
+          "label": "p1_c0.25"
+        },
+        "score": 0.25555555555555554,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 23.0,
+        "n": 4
+      },
+      {
+        "method": "dstar_dwa",
+        "params": {
+          "progress_weight": 1,
+          "clearance_weight": 0.5,
+          "max_expansions": 50,
+          "label": "p1_c0.5"
+        },
+        "score": 0.25555555555555554,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 23.0,
+        "n": 4
+      },
+      {
+        "method": "dstar_dwa",
+        "params": {
+          "progress_weight": 1.5,
+          "clearance_weight": 0.25,
+          "max_expansions": 50,
+          "label": "p1.5_c0.25"
+        },
+        "score": 0.25555555555555554,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 23.0,
+        "n": 4
+      },
+      {
+        "method": "dstar_dwa",
+        "params": {
+          "progress_weight": 2,
+          "clearance_weight": 0.25,
+          "max_expansions": 50,
+          "label": "p2_c0.25"
+        },
+        "score": 0.25555555555555554,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 23.0,
+        "n": 4
+      },
+      {
+        "method": "dstar_dwa",
+        "params": {
+          "progress_weight": 2,
+          "clearance_weight": 0.5,
+          "max_expansions": 50,
+          "label": "p2_c0.5"
+        },
+        "score": 0.25555555555555554,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 23.0,
+        "n": 4
+      }
+    ]
+  }
+}

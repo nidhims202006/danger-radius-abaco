@@ -1,0 +1,25 @@
+{
+  "title": "Danger-Radius ABACO: code and reproducibility archive for time-aligned danger-radius cost weighting in ABACO grid path planning",
+  "description": "Simulation code, analysis scripts, stored results and reproducibility materials accompanying the manuscript 'Time-Aligned Danger-Radius Cost Weighting for Dynamic Obstacles in ABACO Grid Path Planning'.",
+  "upload_type": "software",
+  "license": "MIT",
+  "version": "v35-eswa-review-item4-public-repository-and-data-availability",
+  "creators": [
+    {
+      "name": "Nidhi, M S",
+      "affiliation": "Department of Mechanical Engineering, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Chennai, India"
+    },
+    {
+      "name": "RushiMithra, Kolluri Sri Sasanka",
+      "affiliation": "Department of Mechanical Engineering, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Chennai, India"
+    }
+  ],
+  "keywords": [
+    "ABACO",
+    "ant colony optimisation",
+    "dynamic obstacle avoidance",
+    "mobile robot",
+    "path planning"
+  ],
+  "doi": "10.5281/zenodo.23106834"
+}

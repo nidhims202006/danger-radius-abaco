@@ -1,0 +1,76 @@
+{
+  "protocol": {
+    "seeds": "10300-10599",
+    "n": 300,
+    "K": 2.0,
+    "D_SAFE": 1.5,
+    "R_reference": 4.5,
+    "R_re_evaluated": 5.5,
+    "R5.5_selection_source": "30-seed extended-grid tuning on seeds 6000-6029",
+    "selection_rule": "z(sharp turns)+z(collisions/run), tie by shorter length"
+  },
+  "aggregate_R4.5": {
+    "n": 300,
+    "success_rate_pct": 100.0,
+    "any_collision_rate_pct": 14.000000000000002,
+    "collisions_per_run": 0.19,
+    "mean_path_length": 35.091638524991325,
+    "mean_sharp_turns": 12.546666666666667,
+    "mean_min_clearance": 1.8013725591511016
+  },
+  "aggregate_R5.5": {
+    "n": 300,
+    "success_rate_pct": 100.0,
+    "any_collision_rate_pct": 12.333333333333334,
+    "collisions_per_run": 0.16,
+    "mean_path_length": 35.53392616332805,
+    "mean_sharp_turns": 12.243333333333334,
+    "mean_min_clearance": 1.6374021612698109
+  },
+  "paired_comparison": {
+    "len": {
+      "label": "Mean path length",
+      "R4.5_mean": 35.091638524991325,
+      "R5.5_mean": 35.53392616332805,
+      "difference_R5.5_minus_R4.5": 0.44228763833671747,
+      "bootstrap_95ci_difference": [
+        0.16456199504289853,
+        0.7151471862576139
+      ],
+      "wilcoxon_p": 0.004469992407078419
+    },
+    "turns": {
+      "label": "Mean sharp turns",
+      "R4.5_mean": 12.546666666666667,
+      "R5.5_mean": 12.243333333333334,
+      "difference_R5.5_minus_R4.5": -0.30333333333333334,
+      "bootstrap_95ci_difference": [
+        -0.9333333333333333,
+        0.31666666666666665
+      ],
+      "wilcoxon_p": 0.2936535883098461
+    },
+    "clear": {
+      "label": "Mean minimum clearance",
+      "R4.5_mean": 1.8013725591511016,
+      "R5.5_mean": 1.6374021612698109,
+      "difference_R5.5_minus_R4.5": -0.16397039788129084,
+      "bootstrap_95ci_difference": [
+        -0.3433469891796533,
+        0.015119694170272417
+      ],
+      "wilcoxon_p": 0.09717941952304081
+    },
+    "coll": {
+      "label": "Collisions per run",
+      "R4.5_mean": 0.19,
+      "R5.5_mean": 0.16,
+      "difference_R5.5_minus_R4.5": -0.03,
+      "bootstrap_95ci_difference": [
+        -0.11,
+        0.04666666666666667
+      ],
+      "wilcoxon_p": 0.527580080870468
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "orca": {
+    "best": {
+      "method": "orca",
+      "params": {
+        "tau": 2.0,
+        "buffer": 0.15,
+        "label": "tau2.0_b0.15"
+      },
+      "score": 0.23333333333333334,
+      "collision_rate": 0.0,
+      "median_time_to_goal": 21.0,
+      "n": 4
+    },
+    "candidates": [
+      {
+        "method": "orca",
+        "params": {
+          "tau": 2.0,
+          "buffer": 0.15,
+          "label": "tau2.0_b0.15"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "orca",
+        "params": {
+          "tau": 3.0,
+          "buffer": 0.15,
+          "label": "tau3.0_b0.15"
+        },
+        "score": 0.35833333333333334,
+        "collision_rate": 0.25,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "orca",
+        "params": {
+          "tau": 4.0,
+          "buffer": 0.15,
+          "label": "tau4.0_b0.15"
+        },
+        "score": 0.35833333333333334,
+        "collision_rate": 0.25,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "orca",
+        "params": {
+          "tau": 2.0,
+          "buffer": 0.4,
+          "label": "tau2.0_b0.4"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "orca",
+        "params": {
+          "tau": 3.0,
+          "buffer": 0.4,
+          "label": "tau3.0_b0.4"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "orca",
+        "params": {
+          "tau": 4.0,
+          "buffer": 0.4,
+          "label": "tau4.0_b0.4"
+        },
+        "score": 0.2388888888888889,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.5,
+        "n": 4
+      }
+    ]
+  },
+  "mpc": {
+    "best": {
+      "method": "mpc",
+      "params": {
+        "horizon": 4,
+        "r_safe": 1.5,
+        "w_coll": 5.0,
+        "label": "H4_r1.5_w5.0"
+      },
+      "score": 0.2388888888888889,
+      "collision_rate": 0.0,
+      "median_time_to_goal": 21.5,
+      "n": 4
+    },
+    "candidates": [
+      {
+        "method": "mpc",
+        "params": {
+          "horizon": 4,
+          "r_safe": 1.5,
+          "w_coll": 5.0,
+          "label": "H4_r1.5_w5.0"
+        },
+        "score": 0.2388888888888889,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.5,
+        "n": 4
+      },
+      {
+        "method": "mpc",
+        "params": {
+          "horizon": 6,
+          "r_safe": 1.5,
+          "w_coll": 5.0,
+          "label": "H6_r1.5_w5.0"
+        },
+        "score": 0.2388888888888889,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.5,
+        "n": 4
+      },
+      {
+        "method": "mpc",
+        "params": {
+          "horizon": 8,
+          "r_safe": 1.5,
+          "w_coll": 5.0,
+          "label": "H8_r1.5_w5.0"
+        },
+        "score": 0.2388888888888889,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.5,
+        "n": 4
+      },
+      {
+        "method": "mpc",
+        "params": {
+          "horizon": 4,
+          "r_safe": 2.0,
+          "w_coll": 10.0,
+          "label": "H4_r2.0_w10.0"
+        },
+        "score": 0.2388888888888889,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.5,
+        "n": 4
+      },
+      {
+        "method": "mpc",
+        "params": {
+          "horizon": 6,
+          "r_safe": 2.0,
+          "w_coll": 10.0,
+          "label": "H6_r2.0_w10.0"
+        },
+        "score": 0.24444444444444444,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 22.0,
+        "n": 4
+      },
+      {
+        "method": "mpc",
+        "params": {
+          "horizon": 8,
+          "r_safe": 2.0,
+          "w_coll": 10.0,
+          "label": "H8_r2.0_w10.0"
+        },
+        "score": 0.24444444444444444,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 22.0,
+        "n": 4
+      }
+    ]
+  }
+}

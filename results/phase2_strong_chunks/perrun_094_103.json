@@ -1,0 +1,392 @@
+[
+  {
+    "scenario_id": 94,
+    "seed": 820094,
+    "method": "sipp",
+    "params": {
+      "horizon": 30,
+      "label": "h30"
+    },
+    "any_collision": false,
+    "time_to_goal": 25,
+    "success": true,
+    "distance": 34.526911934581186,
+    "min_clearance": 0.8402414758269403,
+    "turns": 3,
+    "planning_time_s": 0.016508913999132346,
+    "replans": 5,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 94,
+    "seed": 820094,
+    "method": "aco_dwa",
+    "params": {
+      "ants": 8,
+      "iterations": 10,
+      "clearance_weight": 0.1,
+      "goal_weight": 1,
+      "label": "a8_i10_c0.1_g1"
+    },
+    "any_collision": false,
+    "time_to_goal": 31,
+    "success": true,
+    "distance": 41.35533905932738,
+    "min_clearance": 0.26961344670402076,
+    "turns": 12,
+    "planning_time_s": 1.8378854449997561,
+    "replans": 31,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 95,
+    "seed": 820095,
+    "method": "sipp",
+    "params": {
+      "horizon": 30,
+      "label": "h30"
+    },
+    "any_collision": true,
+    "time_to_goal": 29,
+    "success": true,
+    "distance": 39.35533905932738,
+    "min_clearance": -0.2478254358121439,
+    "turns": 4,
+    "planning_time_s": 0.0209222510006839,
+    "replans": 6,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 95,
+    "seed": 820095,
+    "method": "aco_dwa",
+    "params": {
+      "ants": 8,
+      "iterations": 10,
+      "clearance_weight": 0.1,
+      "goal_weight": 1,
+      "label": "a8_i10_c0.1_g1"
+    },
+    "any_collision": false,
+    "time_to_goal": 35,
+    "success": true,
+    "distance": 45.35533905932738,
+    "min_clearance": 0.5666760566015654,
+    "turns": 18,
+    "planning_time_s": 4.132459577000645,
+    "replans": 35,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 96,
+    "seed": 820096,
+    "method": "sipp",
+    "params": {
+      "horizon": 30,
+      "label": "h30"
+    },
+    "any_collision": false,
+    "time_to_goal": 11,
+    "success": true,
+    "distance": 15.556349186104047,
+    "min_clearance": 5.590632766594615,
+    "turns": 0,
+    "planning_time_s": 0.0014531570000144711,
+    "replans": 3,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 96,
+    "seed": 820096,
+    "method": "aco_dwa",
+    "params": {
+      "ants": 8,
+      "iterations": 10,
+      "clearance_weight": 0.1,
+      "goal_weight": 1,
+      "label": "a8_i10_c0.1_g1"
+    },
+    "any_collision": false,
+    "time_to_goal": 11,
+    "success": true,
+    "distance": 15.556349186104047,
+    "min_clearance": 5.590632766594615,
+    "turns": 0,
+    "planning_time_s": 0.24738000399975135,
+    "replans": 11,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 97,
+    "seed": 820097,
+    "method": "sipp",
+    "params": {
+      "horizon": 30,
+      "label": "h30"
+    },
+    "any_collision": false,
+    "time_to_goal": 19,
+    "success": true,
+    "distance": 25.213203435596427,
+    "min_clearance": 5.743927842103389,
+    "turns": 7,
+    "planning_time_s": 0.0056707639996602666,
+    "replans": 4,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 97,
+    "seed": 820097,
+    "method": "aco_dwa",
+    "params": {
+      "ants": 8,
+      "iterations": 10,
+      "clearance_weight": 0.1,
+      "goal_weight": 1,
+      "label": "a8_i10_c0.1_g1"
+    },
+    "any_collision": false,
+    "time_to_goal": 21,
+    "success": true,
+    "distance": 27.213203435596427,
+    "min_clearance": 4.6715339536605285,
+    "turns": 11,
+    "planning_time_s": 1.1213852029977716,
+    "replans": 21,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 98,
+    "seed": 820098,
+    "method": "sipp",
+    "params": {
+      "horizon": 30,
+      "label": "h30"
+    },
+    "any_collision": false,
+    "time_to_goal": 25,
+    "success": true,
+    "distance": 34.526911934581186,
+    "min_clearance": 11.147539368765662,
+    "turns": 3,
+    "planning_time_s": 0.012539286000446737,
+    "replans": 5,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 98,
+    "seed": 820098,
+    "method": "aco_dwa",
+    "params": {
+      "ants": 8,
+      "iterations": 10,
+      "clearance_weight": 0.1,
+      "goal_weight": 1,
+      "label": "a8_i10_c0.1_g1"
+    },
+    "any_collision": false,
+    "time_to_goal": 34,
+    "success": true,
+    "distance": 43.112698372208094,
+    "min_clearance": 12.257595815036776,
+    "turns": 17,
+    "planning_time_s": 3.216995409999072,
+    "replans": 34,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 99,
+    "seed": 820099,
+    "method": "sipp",
+    "params": {
+      "horizon": 30,
+      "label": "h30"
+    },
+    "any_collision": false,
+    "time_to_goal": 29,
+    "success": true,
+    "distance": 38.526911934581186,
+    "min_clearance": 5.980344916263264,
+    "turns": 1,
+    "planning_time_s": 0.031004108000161068,
+    "replans": 6,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 99,
+    "seed": 820099,
+    "method": "aco_dwa",
+    "params": {
+      "ants": 8,
+      "iterations": 10,
+      "clearance_weight": 0.1,
+      "goal_weight": 1,
+      "label": "a8_i10_c0.1_g1"
+    },
+    "any_collision": false,
+    "time_to_goal": 40,
+    "success": true,
+    "distance": 49.941125496954285,
+    "min_clearance": 1.8005543567568527,
+    "turns": 25,
+    "planning_time_s": 3.7916672450019178,
+    "replans": 40,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 100,
+    "seed": 820100,
+    "method": "sipp",
+    "params": {
+      "horizon": 30,
+      "label": "h30"
+    },
+    "any_collision": false,
+    "time_to_goal": 12,
+    "success": true,
+    "distance": 16.14213562373095,
+    "min_clearance": 1.1530085489983495,
+    "turns": 3,
+    "planning_time_s": 0.0018260599999848637,
+    "replans": 3,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 100,
+    "seed": 820100,
+    "method": "aco_dwa",
+    "params": {
+      "ants": 8,
+      "iterations": 10,
+      "clearance_weight": 0.1,
+      "goal_weight": 1,
+      "label": "a8_i10_c0.1_g1"
+    },
+    "any_collision": false,
+    "time_to_goal": 12,
+    "success": true,
+    "distance": 16.14213562373095,
+    "min_clearance": 1.0632698083142027,
+    "turns": 3,
+    "planning_time_s": 0.3153545800005304,
+    "replans": 12,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 101,
+    "seed": 820101,
+    "method": "sipp",
+    "params": {
+      "horizon": 30,
+      "label": "h30"
+    },
+    "any_collision": false,
+    "time_to_goal": 18,
+    "success": true,
+    "distance": 24.627416997969522,
+    "min_clearance": 1.4823708162358253,
+    "turns": 3,
+    "planning_time_s": 0.010013871000865038,
+    "replans": 4,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 101,
+    "seed": 820101,
+    "method": "aco_dwa",
+    "params": {
+      "ants": 8,
+      "iterations": 10,
+      "clearance_weight": 0.1,
+      "goal_weight": 1,
+      "label": "a8_i10_c0.1_g1"
+    },
+    "any_collision": false,
+    "time_to_goal": 20,
+    "success": true,
+    "distance": 26.627416997969522,
+    "min_clearance": 0.9709813994046594,
+    "turns": 6,
+    "planning_time_s": 1.276994236999144,
+    "replans": 20,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 102,
+    "seed": 820102,
+    "method": "sipp",
+    "params": {
+      "horizon": 30,
+      "label": "h30"
+    },
+    "any_collision": false,
+    "time_to_goal": 25,
+    "success": true,
+    "distance": 34.526911934581186,
+    "min_clearance": 6.5825316139934005,
+    "turns": 4,
+    "planning_time_s": 0.025777837000077852,
+    "replans": 5,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 102,
+    "seed": 820102,
+    "method": "aco_dwa",
+    "params": {
+      "ants": 8,
+      "iterations": 10,
+      "clearance_weight": 0.1,
+      "goal_weight": 1,
+      "label": "a8_i10_c0.1_g1"
+    },
+    "any_collision": false,
+    "time_to_goal": 38,
+    "success": true,
+    "distance": 48.76955262170048,
+    "min_clearance": 4.257303989775523,
+    "turns": 20,
+    "planning_time_s": 1.5488020810007583,
+    "replans": 38,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 103,
+    "seed": 820103,
+    "method": "sipp",
+    "params": {
+      "horizon": 30,
+      "label": "h30"
+    },
+    "any_collision": false,
+    "time_to_goal": 29,
+    "success": true,
+    "distance": 38.526911934581186,
+    "min_clearance": 0.008043235698606543,
+    "turns": 9,
+    "planning_time_s": 0.015667195999867545,
+    "replans": 6,
+    "floor_relaxations": 0
+  },
+  {
+    "scenario_id": 103,
+    "seed": 820103,
+    "method": "aco_dwa",
+    "params": {
+      "ants": 8,
+      "iterations": 10,
+      "clearance_weight": 0.1,
+      "goal_weight": 1,
+      "label": "a8_i10_c0.1_g1"
+    },
+    "any_collision": false,
+    "time_to_goal": 36,
+    "success": true,
+    "distance": 46.76955262170048,
+    "min_clearance": 0.46511926809078474,
+    "turns": 17,
+    "planning_time_s": 1.68705884100018,
+    "replans": 36,
+    "floor_relaxations": 0
+  }
+]

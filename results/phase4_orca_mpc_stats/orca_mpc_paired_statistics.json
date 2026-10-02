@@ -1,0 +1,245 @@
+{
+  "new_rows": [
+    {
+      "comparison": "DR-T vs ORCA",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 99.0,
+      "difference_pct_points": -26.5,
+      "bootstrap_ci95_pct_points": [
+        -33.0,
+        -20.0
+      ],
+      "mcnemar_exact_p": 2.295386103412511e-14,
+      "discordant_dr_t_0_comparator_1": 55,
+      "discordant_dr_t_1_comparator_0": 2,
+      "holm_p_family_of_4": 6.886158310237533e-14,
+      "holm_p_family_of_14": 2.7544633240950134e-13
+    },
+    {
+      "comparison": "DR-T vs ORCA",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 8.0,
+      "difference_pct_points": 10.0,
+      "bootstrap_ci95_pct_points": [
+        3.5000000000000004,
+        16.5
+      ],
+      "mcnemar_exact_p": 0.003657766827927844,
+      "discordant_dr_t_0_comparator_1": 12,
+      "discordant_dr_t_1_comparator_0": 32,
+      "holm_p_family_of_4": 0.003657766827927844,
+      "holm_p_family_of_14": 0.029262134623422753
+    },
+    {
+      "comparison": "DR-T vs MPC",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 100.0,
+      "difference_pct_points": -27.500000000000004,
+      "bootstrap_ci95_pct_points": [
+        -34.0,
+        -21.5
+      ],
+      "mcnemar_exact_p": 5.551115123125783e-17,
+      "discordant_dr_t_0_comparator_1": 55,
+      "discordant_dr_t_1_comparator_0": 0,
+      "holm_p_family_of_4": 2.220446049250313e-16,
+      "holm_p_family_of_14": 7.771561172376096e-16
+    },
+    {
+      "comparison": "DR-T vs MPC",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 2.0,
+      "difference_pct_points": 16.0,
+      "bootstrap_ci95_pct_points": [
+        11.0,
+        21.5
+      ],
+      "mcnemar_exact_p": 4.0745362639427185e-09,
+      "discordant_dr_t_0_comparator_1": 1,
+      "discordant_dr_t_1_comparator_0": 33,
+      "holm_p_family_of_4": 8.149072527885437e-09,
+      "holm_p_family_of_14": 4.0745362639427185e-08
+    }
+  ],
+  "old_rows_with_14_test_holm": [
+    {
+      "comparison": "DR-T vs HBP",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 75.0,
+      "difference_pct_points": -2.5,
+      "bootstrap_ci95_pct_points": [
+        -8.5,
+        3.5000000000000004
+      ],
+      "mcnemar_exact_p": 0.5113757815852296,
+      "discordant_dr_t_0_comparator_1": 21,
+      "discordant_dr_t_1_comparator_0": 16,
+      "holm_adjusted_p": 1.0,
+      "holm_p_family_of_14": 1.0
+    },
+    {
+      "comparison": "DR-T vs HBP",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 26.5,
+      "difference_pct_points": -8.5,
+      "bootstrap_ci95_pct_points": [
+        -15.0,
+        -1.9874999999999545
+      ],
+      "mcnemar_exact_p": 0.024092907698449295,
+      "discordant_dr_t_0_comparator_1": 34,
+      "discordant_dr_t_1_comparator_0": 17,
+      "holm_adjusted_p": 0.148895263671875,
+      "holm_p_family_of_14": 0.148895263671875
+    },
+    {
+      "comparison": "DR-T vs HB",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 69.0,
+      "difference_pct_points": 3.5000000000000004,
+      "bootstrap_ci95_pct_points": [
+        -1.5,
+        8.5
+      ],
+      "mcnemar_exact_p": 0.24778856337070465,
+      "discordant_dr_t_0_comparator_1": 10,
+      "discordant_dr_t_1_comparator_0": 17,
+      "holm_adjusted_p": 0.9911542534828186,
+      "holm_p_family_of_14": 0.9911542534828186
+    },
+    {
+      "comparison": "DR-T vs HB",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 31.0,
+      "difference_pct_points": -13.0,
+      "bootstrap_ci95_pct_points": [
+        -20.0,
+        -6.0
+      ],
+      "mcnemar_exact_p": 0.0004095414537825804,
+      "discordant_dr_t_0_comparator_1": 39,
+      "discordant_dr_t_1_comparator_0": 13,
+      "holm_adjusted_p": 0.003276331630260643,
+      "holm_p_family_of_14": 0.0036858730840432234
+    },
+    {
+      "comparison": "DR-T vs DR-SAFE",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 67.5,
+      "difference_pct_points": 5.0,
+      "bootstrap_ci95_pct_points": [
+        1.0,
+        9.0
+      ],
+      "mcnemar_exact_p": 0.021270751953125,
+      "discordant_dr_t_0_comparator_1": 3,
+      "discordant_dr_t_1_comparator_0": 13,
+      "holm_adjusted_p": 0.148895263671875,
+      "holm_p_family_of_14": 0.148895263671875
+    },
+    {
+      "comparison": "DR-T vs DR-SAFE",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 23.0,
+      "difference_pct_points": -5.0,
+      "bootstrap_ci95_pct_points": [
+        -9.0,
+        -1.0
+      ],
+      "mcnemar_exact_p": 0.04138946533203125,
+      "discordant_dr_t_0_comparator_1": 15,
+      "discordant_dr_t_1_comparator_0": 5,
+      "holm_adjusted_p": 0.20694732666015625,
+      "holm_p_family_of_14": 0.20694732666015625
+    },
+    {
+      "comparison": "DR-T vs ACO+DWA",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 95.5,
+      "difference_pct_points": -23.0,
+      "bootstrap_ci95_pct_points": [
+        -28.999999999999996,
+        -17.0
+      ],
+      "mcnemar_exact_p": 2.2666313270747196e-12,
+      "discordant_dr_t_0_comparator_1": 48,
+      "discordant_dr_t_1_comparator_0": 2,
+      "holm_adjusted_p": 2.0399681943672476e-11,
+      "holm_p_family_of_14": 2.4932944597821916e-11
+    },
+    {
+      "comparison": "DR-T vs ACO+DWA",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 16.0,
+      "difference_pct_points": 2.0,
+      "bootstrap_ci95_pct_points": [
+        -4.5,
+        8.012500000000045
+      ],
+      "mcnemar_exact_p": 0.6439689563703723,
+      "discordant_dr_t_0_comparator_1": 19,
+      "discordant_dr_t_1_comparator_0": 23,
+      "holm_adjusted_p": 1.0,
+      "holm_p_family_of_14": 1.0
+    },
+    {
+      "comparison": "DR-T vs D* Lite+DWA",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 100.0,
+      "difference_pct_points": -27.500000000000004,
+      "bootstrap_ci95_pct_points": [
+        -33.5,
+        -21.5
+      ],
+      "mcnemar_exact_p": 5.551115123125783e-17,
+      "discordant_dr_t_0_comparator_1": 55,
+      "discordant_dr_t_1_comparator_0": 0,
+      "holm_adjusted_p": 5.551115123125783e-16,
+      "holm_p_family_of_14": 7.771561172376096e-16
+    },
+    {
+      "comparison": "DR-T vs D* Lite+DWA",
+      "outcome": "collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 22.5,
+      "difference_pct_points": -4.5,
+      "bootstrap_ci95_pct_points": [
+        -12.5,
+        3.5000000000000004
+      ],
+      "mcnemar_exact_p": 0.31350305329645284,
+      "discordant_dr_t_0_comparator_1": 36,
+      "discordant_dr_t_1_comparator_0": 27,
+      "holm_adjusted_p": 0.9911542534828186,
+      "holm_p_family_of_14": 0.9911542534828186
+    }
+  ],
+  "note": "post hoc; ORCA/MPC added after the frozen protocol"
+}
