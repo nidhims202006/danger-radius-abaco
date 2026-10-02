@@ -1,0 +1,59 @@
+{
+  "protocol": {
+    "name": "high-fidelity continuous-kinematic validation",
+    "N": 8,
+    "scenario_ids": [
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211
+    ],
+    "robot_radius": 0.35,
+    "obstacle_radius": 0.35,
+    "dt": 0.2,
+    "v_max": 0.85,
+    "a_max": 0.18,
+    "omega_max_deg_per_tick": 29.999999999999996,
+    "replan_every": 5,
+    "continuous_swept_collision_check": true,
+    "estimator": "CVKalman",
+    "noise_levels": [
+      0.15,
+      0.35
+    ],
+    "motions": [
+      "curved"
+    ],
+    "not_ros_gazebo": true
+  },
+  "summary": {
+    "DR-T": {
+      "N": 8,
+      "success_rate": 0.75,
+      "any_collision_rate": 0.5,
+      "mean_collision_events": 1.5,
+      "mean_min_continuous_clearance": -0.06097522876717503,
+      "mean_distance_driven": 42.03123831569218,
+      "mean_replans": 20.0,
+      "mean_planning_time_s": 1.1408736462500038,
+      "median_planning_time_s": 1.0506766380000272,
+      "mean_goal_tick": 71.83333333333333
+    },
+    "DR-SAFE": {
+      "N": 8,
+      "success_rate": 0.625,
+      "any_collision_rate": 0.25,
+      "mean_collision_events": 0.875,
+      "mean_min_continuous_clearance": 0.1245551154892321,
+      "mean_distance_driven": 44.34449256757054,
+      "mean_replans": 22.625,
+      "mean_planning_time_s": 1.6564574356249828,
+      "median_planning_time_s": 2.384629586999864,
+      "mean_goal_tick": 71.8
+    }
+  }
+}

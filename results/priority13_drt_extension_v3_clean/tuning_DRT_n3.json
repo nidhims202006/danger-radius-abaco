@@ -1,0 +1,147 @@
+{
+  "method": "DRT",
+  "noise": [
+    30.0,
+    0.4
+  ],
+  "tuning_seeds": [
+    9000,
+    9001,
+    9002,
+    9003,
+    9004,
+    9005,
+    9006,
+    9007,
+    9008,
+    9009,
+    9010,
+    9011,
+    9012,
+    9013,
+    9014,
+    9015,
+    9016,
+    9017,
+    9018,
+    9019,
+    9020,
+    9021,
+    9022,
+    9023,
+    9024,
+    9025,
+    9026,
+    9027,
+    9028,
+    9029
+  ],
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "params": {
+        "R": 3.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 20,
+        "iterations": 50,
+        "label": "a20_i50_R3.5"
+      },
+      "score": 0.22805555555555557,
+      "n": 30,
+      "collision_rate": 0.16666666666666666,
+      "failure_rate": 0.0,
+      "mean_turns_successful": 17.366666666666667
+    },
+    {
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 20,
+        "iterations": 100,
+        "label": "a20_i100_R4.5"
+      },
+      "score": 0.21083333333333332,
+      "n": 30,
+      "collision_rate": 0.13333333333333333,
+      "failure_rate": 0.0,
+      "mean_turns_successful": 15.3
+    },
+    {
+      "params": {
+        "R": 5.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 40,
+        "iterations": 50,
+        "label": "a40_i50_R5.5"
+      },
+      "score": 0.17472222222222222,
+      "n": 30,
+      "collision_rate": 0.13333333333333333,
+      "failure_rate": 0.0,
+      "mean_turns_successful": 12.966666666666667
+    },
+    {
+      "params": {
+        "R": 3.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 40,
+        "iterations": 100,
+        "label": "a40_i100_R3.5"
+      },
+      "score": 0.2375,
+      "n": 30,
+      "collision_rate": 0.2,
+      "failure_rate": 0.0,
+      "mean_turns_successful": 12.5
+    },
+    {
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "score": 0.17944444444444443,
+      "n": 30,
+      "collision_rate": 0.1,
+      "failure_rate": 0.0,
+      "mean_turns_successful": 11.533333333333333
+    },
+    {
+      "params": {
+        "R": 5.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 100,
+        "label": "a60_i100_R5.5"
+      },
+      "score": 0.2791666666666667,
+      "n": 30,
+      "collision_rate": 0.26666666666666666,
+      "failure_rate": 0.0,
+      "mean_turns_successful": 11.5
+    }
+  ],
+  "selected": {
+    "params": {
+      "R": 5.5,
+      "K": 2.0,
+      "d_safe": 1.5,
+      "ants": 40,
+      "iterations": 50,
+      "label": "a40_i50_R5.5"
+    },
+    "score": 0.17472222222222222,
+    "n": 30,
+    "collision_rate": 0.13333333333333333,
+    "failure_rate": 0.0,
+    "mean_turns_successful": 12.966666666666667
+  }
+}

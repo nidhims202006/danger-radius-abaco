@@ -1,0 +1,10 @@
+{
+  "status": "reporting_record_only",
+  "description": "Updated manuscript Table 29 descriptive rerun values. These values are not a replacement for raw per-run data.",
+  "scenario_ids": "4-203",
+  "n": 200,
+  "orca": {"success_pct": 100.0, "any_collision_pct": 9.5},
+  "mpc": {"success_pct": 100.0, "any_collision_pct": 3.0},
+  "paired_inference": "not archived for this updated rerun; no p-values reported in the manuscript",
+  "legacy_raw_result": "results/phase4_orca_mpc_perrun.json contains the superseded 99.0%/8.0% ORCA and 100.0%/2.0% MPC run"
+}

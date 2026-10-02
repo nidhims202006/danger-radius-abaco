@@ -1,0 +1,46 @@
+{
+  "selection_rule": "minimize 0.5*any_collision_rate + 0.5*(median_time_to_goal/45), failures scored as 45 ticks",
+  "tuning_scenarios": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "parameters": {
+    "dstar_dwa": {
+      "progress_weight": 1,
+      "clearance_weight": 0.1,
+      "max_expansions": 50,
+      "label": "p1_c0.1"
+    },
+    "space_time_astar": {
+      "horizon": 30,
+      "label": "h30"
+    },
+    "HB": {
+      "ants": 8,
+      "iterations": 10,
+      "label": "a8_i10"
+    },
+    "HBP": {
+      "ants": 16,
+      "iterations": 20,
+      "label": "a16_i20"
+    },
+    "DR-SAFE": {
+      "R": 3.5,
+      "K": 0.5,
+      "D_SAFE": 0.75,
+      "ants": 12,
+      "iterations": 20,
+      "label": "R3.5_K0.5_D0.75"
+    },
+    "DR-T": {
+      "R": 4.5,
+      "K": 1,
+      "ants": 12,
+      "iterations": 20,
+      "label": "R4.5_K1"
+    }
+  }
+}

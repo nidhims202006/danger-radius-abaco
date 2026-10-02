@@ -1,0 +1,125 @@
+{
+  "method": "HBP",
+  "noise": [
+    15.0,
+    0.2
+  ],
+  "tuning_seeds": [
+    9000,
+    9001,
+    9002,
+    9003,
+    9004,
+    9005,
+    9006,
+    9007,
+    9008,
+    9009,
+    9010,
+    9011,
+    9012,
+    9013,
+    9014,
+    9015,
+    9016,
+    9017,
+    9018,
+    9019,
+    9020,
+    9021,
+    9022,
+    9023,
+    9024,
+    9025,
+    9026,
+    9027,
+    9028,
+    9029
+  ],
+  "candidates": [
+    {
+      "params": {
+        "ants": 20,
+        "iterations": 50,
+        "label": "a20_i50"
+      },
+      "score": 0.2563888888888889,
+      "n": 30,
+      "collision_rate": 0.16666666666666666,
+      "failure_rate": 0.0,
+      "mean_turns_successful": 20.766666666666666
+    },
+    {
+      "params": {
+        "ants": 20,
+        "iterations": 100,
+        "label": "a20_i100"
+      },
+      "score": 0.2827777777777778,
+      "n": 30,
+      "collision_rate": 0.26666666666666666,
+      "failure_rate": 0.0,
+      "mean_turns_successful": 17.933333333333334
+    },
+    {
+      "params": {
+        "ants": 40,
+        "iterations": 50,
+        "label": "a40_i50"
+      },
+      "score": 0.20527777777777778,
+      "n": 30,
+      "collision_rate": 0.13333333333333333,
+      "failure_rate": 0.0,
+      "mean_turns_successful": 16.633333333333333
+    },
+    {
+      "params": {
+        "ants": 40,
+        "iterations": 100,
+        "label": "a40_i100"
+      },
+      "score": 0.18055555555555555,
+      "n": 30,
+      "collision_rate": 0.13333333333333333,
+      "failure_rate": 0.0,
+      "mean_turns_successful": 13.666666666666666
+    },
+    {
+      "params": {
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50"
+      },
+      "score": 0.15888888888888889,
+      "n": 30,
+      "collision_rate": 0.1,
+      "failure_rate": 0.0,
+      "mean_turns_successful": 13.066666666666666
+    },
+    {
+      "params": {
+        "ants": 60,
+        "iterations": 100,
+        "label": "a60_i100"
+      },
+      "score": 0.1875,
+      "n": 30,
+      "collision_rate": 0.16666666666666666,
+      "failure_rate": 0.0,
+      "mean_turns_successful": 12.5
+    }
+  ],
+  "selected": {
+    "params": {
+      "ants": 60,
+      "iterations": 50,
+      "label": "a60_i50"
+    },
+    "score": 0.15888888888888889,
+    "n": 30,
+    "collision_rate": 0.1,
+    "failure_rate": 0.0,
+    "mean_turns_successful": 13.066666666666666
+  }
+}

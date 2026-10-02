@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it using the metadata below."
+title: "Danger-Radius / ABACO: Submission Code and Reproducibility Package (time-aligned danger-radius cost for dynamic obstacles in ABACO grid path planning)"
+version: "v1.0.0"
+date-released: "2026-10-02"
+license: MIT
+authors:
+  - given-names: "M S"
+    family-names: "Nidhi"
+    affiliation: "Department of Mechanical Engineering, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Chennai, India"
+  - given-names: "Kolluri Sri Sasanka"
+    family-names: "RushiMithra"
+    affiliation: "Department of Mechanical Engineering, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Chennai, India"
+abstract: "Experiment code, stored results, figures and analysis scripts accompanying the manuscript 'Time-Aligned Danger-Radius Cost Weighting for Dynamic Obstacles in ABACO Grid Path Planning'. No public repository or DOI exists at the time of this release."
+keywords:
+  - ant colony optimisation
+  - dynamic obstacle avoidance
+  - path planning
+  - mobile robots

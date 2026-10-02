@@ -1,0 +1,185 @@
+{
+  "sipp": {
+    "best": {
+      "method": "sipp",
+      "params": {
+        "horizon": 30,
+        "label": "h30"
+      },
+      "score": 0.23333333333333334,
+      "collision_rate": 0.0,
+      "median_time_to_goal": 21.0,
+      "n": 4
+    },
+    "candidates": [
+      {
+        "method": "sipp",
+        "params": {
+          "horizon": 30,
+          "label": "h30"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "sipp",
+        "params": {
+          "horizon": 60,
+          "label": "h60"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "sipp",
+        "params": {
+          "horizon": 40,
+          "label": "h40"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "sipp",
+        "params": {
+          "horizon": 50,
+          "label": "h50"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "sipp",
+        "params": {
+          "horizon": 70,
+          "label": "h70"
+        },
+        "score": 0.23333333333333334,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 21.0,
+        "n": 4
+      },
+      {
+        "method": "sipp",
+        "params": {
+          "horizon": 20,
+          "label": "h20"
+        },
+        "score": 0.34444444444444444,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 31.0,
+        "n": 4
+      }
+    ]
+  },
+  "aco_dwa": {
+    "best": {
+      "method": "aco_dwa",
+      "params": {
+        "ants": 8,
+        "iterations": 10,
+        "clearance_weight": 0.1,
+        "goal_weight": 1,
+        "label": "a8_i10_c0.1_g1"
+      },
+      "score": 0.2833333333333333,
+      "collision_rate": 0.0,
+      "median_time_to_goal": 25.5,
+      "n": 4
+    },
+    "candidates": [
+      {
+        "method": "aco_dwa",
+        "params": {
+          "ants": 8,
+          "iterations": 10,
+          "clearance_weight": 0.1,
+          "goal_weight": 1,
+          "label": "a8_i10_c0.1_g1"
+        },
+        "score": 0.2833333333333333,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 25.5,
+        "n": 4
+      },
+      {
+        "method": "aco_dwa",
+        "params": {
+          "ants": 8,
+          "iterations": 20,
+          "clearance_weight": 0.25,
+          "goal_weight": 1,
+          "label": "a8_i20_c0.25_g1"
+        },
+        "score": 0.2833333333333333,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 25.5,
+        "n": 4
+      },
+      {
+        "method": "aco_dwa",
+        "params": {
+          "ants": 16,
+          "iterations": 10,
+          "clearance_weight": 0.1,
+          "goal_weight": 1,
+          "label": "a16_i10_c0.1_g1"
+        },
+        "score": 0.3055555555555556,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 27.5,
+        "n": 4
+      },
+      {
+        "method": "aco_dwa",
+        "params": {
+          "ants": 12,
+          "iterations": 20,
+          "clearance_weight": 0.25,
+          "goal_weight": 1,
+          "label": "a12_i20_c0.25_g1"
+        },
+        "score": 0.3055555555555556,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 27.5,
+        "n": 4
+      },
+      {
+        "method": "aco_dwa",
+        "params": {
+          "ants": 16,
+          "iterations": 20,
+          "clearance_weight": 0.25,
+          "goal_weight": 1,
+          "label": "a16_i20_c0.25_g1"
+        },
+        "score": 0.3055555555555556,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 27.5,
+        "n": 4
+      },
+      {
+        "method": "aco_dwa",
+        "params": {
+          "ants": 12,
+          "iterations": 10,
+          "clearance_weight": 0.1,
+          "goal_weight": 1,
+          "label": "a12_i10_c0.1_g1"
+        },
+        "score": 0.3111111111111111,
+        "collision_rate": 0.0,
+        "median_time_to_goal": 28.0,
+        "n": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,6919 @@
+{
+  "method": "DRSAFE",
+  "noise": [
+    5.0,
+    0.1
+  ],
+  "confirmation_seeds": [
+    10300,
+    10301,
+    10302,
+    10303,
+    10304,
+    10305,
+    10306,
+    10307,
+    10308,
+    10309,
+    10310,
+    10311,
+    10312,
+    10313,
+    10314,
+    10315,
+    10316,
+    10317,
+    10318,
+    10319,
+    10320,
+    10321,
+    10322,
+    10323,
+    10324,
+    10325,
+    10326,
+    10327,
+    10328,
+    10329,
+    10330,
+    10331,
+    10332,
+    10333,
+    10334,
+    10335,
+    10336,
+    10337,
+    10338,
+    10339,
+    10340,
+    10341,
+    10342,
+    10343,
+    10344,
+    10345,
+    10346,
+    10347,
+    10348,
+    10349,
+    10350,
+    10351,
+    10352,
+    10353,
+    10354,
+    10355,
+    10356,
+    10357,
+    10358,
+    10359,
+    10360,
+    10361,
+    10362,
+    10363,
+    10364,
+    10365,
+    10366,
+    10367,
+    10368,
+    10369,
+    10370,
+    10371,
+    10372,
+    10373,
+    10374,
+    10375,
+    10376,
+    10377,
+    10378,
+    10379,
+    10380,
+    10381,
+    10382,
+    10383,
+    10384,
+    10385,
+    10386,
+    10387,
+    10388,
+    10389,
+    10390,
+    10391,
+    10392,
+    10393,
+    10394,
+    10395,
+    10396,
+    10397,
+    10398,
+    10399,
+    10400,
+    10401,
+    10402,
+    10403,
+    10404,
+    10405,
+    10406,
+    10407,
+    10408,
+    10409,
+    10410,
+    10411,
+    10412,
+    10413,
+    10414,
+    10415,
+    10416,
+    10417,
+    10418,
+    10419,
+    10420,
+    10421,
+    10422,
+    10423,
+    10424,
+    10425,
+    10426,
+    10427,
+    10428,
+    10429,
+    10430,
+    10431,
+    10432,
+    10433,
+    10434,
+    10435,
+    10436,
+    10437,
+    10438,
+    10439,
+    10440,
+    10441,
+    10442,
+    10443,
+    10444,
+    10445,
+    10446,
+    10447,
+    10448,
+    10449,
+    10450,
+    10451,
+    10452,
+    10453,
+    10454,
+    10455,
+    10456,
+    10457,
+    10458,
+    10459,
+    10460,
+    10461,
+    10462,
+    10463,
+    10464,
+    10465,
+    10466,
+    10467,
+    10468,
+    10469,
+    10470,
+    10471,
+    10472,
+    10473,
+    10474,
+    10475,
+    10476,
+    10477,
+    10478,
+    10479,
+    10480,
+    10481,
+    10482,
+    10483,
+    10484,
+    10485,
+    10486,
+    10487,
+    10488,
+    10489,
+    10490,
+    10491,
+    10492,
+    10493,
+    10494,
+    10495,
+    10496,
+    10497,
+    10498,
+    10499,
+    10500,
+    10501,
+    10502,
+    10503,
+    10504,
+    10505,
+    10506,
+    10507,
+    10508,
+    10509,
+    10510,
+    10511,
+    10512,
+    10513,
+    10514,
+    10515,
+    10516,
+    10517,
+    10518,
+    10519,
+    10520,
+    10521,
+    10522,
+    10523,
+    10524,
+    10525,
+    10526,
+    10527,
+    10528,
+    10529,
+    10530,
+    10531,
+    10532,
+    10533,
+    10534,
+    10535,
+    10536,
+    10537,
+    10538,
+    10539,
+    10540,
+    10541,
+    10542,
+    10543,
+    10544,
+    10545,
+    10546,
+    10547,
+    10548,
+    10549,
+    10550,
+    10551,
+    10552,
+    10553,
+    10554,
+    10555,
+    10556,
+    10557,
+    10558,
+    10559,
+    10560,
+    10561,
+    10562,
+    10563,
+    10564,
+    10565,
+    10566,
+    10567,
+    10568,
+    10569,
+    10570,
+    10571,
+    10572,
+    10573,
+    10574,
+    10575,
+    10576,
+    10577,
+    10578,
+    10579,
+    10580,
+    10581,
+    10582,
+    10583,
+    10584,
+    10585,
+    10586,
+    10587,
+    10588,
+    10589,
+    10590,
+    10591,
+    10592,
+    10593,
+    10594,
+    10595,
+    10596,
+    10597,
+    10598,
+    10599
+  ],
+  "params": {
+    "R": 4.5,
+    "K": 2.0,
+    "d_safe": 1.5,
+    "ants": 60,
+    "iterations": 50,
+    "label": "a60_i50_R4.5"
+  },
+  "runs": [
+    {
+      "method": "DRSAFE",
+      "seed": 10300,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 16,
+        "fb": 1610,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10301,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 49,
+        "fb": 1593,
+        "len": 34.24264068711929,
+        "turns": 14,
+        "clear": 5.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10302,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 48,
+        "fb": 1790,
+        "len": 34.82842712474619,
+        "turns": 16,
+        "clear": 4.242640687119285,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10303,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 1273,
+        "len": 36.0,
+        "turns": 11,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10304,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 1868,
+        "len": 36.0,
+        "turns": 13,
+        "clear": 3.605551275463989,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10305,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 2138,
+        "len": 33.41421356237309,
+        "turns": 11,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10306,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 1871,
+        "len": 34.0,
+        "turns": 8,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10307,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1751,
+        "len": 37.41421356237309,
+        "turns": 19,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10308,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 37,
+        "fb": 2267,
+        "len": 36.0,
+        "turns": 11,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10309,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 1975,
+        "len": 33.41421356237309,
+        "turns": 4,
+        "clear": 5.656854249492381,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10310,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1882,
+        "len": 36.24264068711929,
+        "turns": 17,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10311,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 34,
+        "fb": 2120,
+        "len": 35.41421356237309,
+        "turns": 13,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10312,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 49,
+        "fb": 1817,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10313,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 19,
+        "fb": 2292,
+        "len": 34.82842712474619,
+        "turns": 18,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10314,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 1978,
+        "len": 35.41421356237309,
+        "turns": 12,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10315,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 43,
+        "fb": 1696,
+        "len": 33.41421356237309,
+        "turns": 9,
+        "clear": 4.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10316,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 37,
+        "fb": 1973,
+        "len": 32.82842712474619,
+        "turns": 12,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10317,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 26,
+        "fb": 2421,
+        "len": 34.0,
+        "turns": 5,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10318,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 40,
+        "fb": 1964,
+        "len": 36.0,
+        "turns": 10,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10319,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 18,
+        "fb": 1558,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10320,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 39,
+        "fb": 2202,
+        "len": 35.41421356237309,
+        "turns": 11,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10321,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 2062,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10322,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 16,
+        "fb": 2143,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10323,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 36,
+        "fb": 1799,
+        "len": 35.41421356237309,
+        "turns": 16,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10324,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 50,
+        "fb": 2085,
+        "len": 32.82842712474619,
+        "turns": 12,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10325,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 15,
+        "fb": 2057,
+        "len": 33.41421356237309,
+        "turns": 6,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10326,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 38,
+        "fb": 1855,
+        "len": 35.41421356237309,
+        "turns": 17,
+        "clear": 4.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10327,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 15,
+        "fb": 1646,
+        "len": 34.82842712474619,
+        "turns": 13,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10328,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 1671,
+        "len": 34.82842712474619,
+        "turns": 11,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10329,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 1945,
+        "len": 38.0,
+        "turns": 14,
+        "clear": 3.605551275463989,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10330,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 43,
+        "fb": 2025,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10331,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 2138,
+        "len": 35.41421356237309,
+        "turns": 14,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10332,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 40,
+        "fb": 1975,
+        "len": 35.41421356237309,
+        "turns": 13,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10333,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 39,
+        "fb": 1937,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10334,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 2062,
+        "len": 34.82842712474619,
+        "turns": 13,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10335,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 48,
+        "fb": 1675,
+        "len": 36.0,
+        "turns": 9,
+        "clear": 5.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10336,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 17,
+        "fb": 1870,
+        "len": 33.41421356237309,
+        "turns": 11,
+        "clear": 0.0,
+        "coll": 2
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10337,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 1764,
+        "len": 34.82842712474619,
+        "turns": 15,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10338,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 1786,
+        "len": 36.0,
+        "turns": 8,
+        "clear": 5.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10339,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 24,
+        "fb": 2033,
+        "len": 33.41421356237309,
+        "turns": 11,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10340,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 36,
+        "fb": 1676,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10341,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 36,
+        "fb": 2027,
+        "len": 36.0,
+        "turns": 13,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10342,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 39,
+        "fb": 1845,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 4.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10343,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 2100,
+        "len": 36.24264068711929,
+        "turns": 16,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10344,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 50,
+        "fb": 1798,
+        "len": 35.41421356237309,
+        "turns": 11,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10345,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 10,
+        "fb": 1936,
+        "len": 35.41421356237309,
+        "turns": 10,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10346,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 2059,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10347,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 45,
+        "fb": 2119,
+        "len": 32.24264068711929,
+        "turns": 9,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10348,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 2152,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10349,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 48,
+        "fb": 1766,
+        "len": 33.41421356237309,
+        "turns": 9,
+        "clear": 3.605551275463989,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10350,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 15,
+        "fb": 1672,
+        "len": 38.0,
+        "turns": 27,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10351,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 37,
+        "fb": 2566,
+        "len": 33.41421356237309,
+        "turns": 8,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10352,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 45,
+        "fb": 2388,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10353,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 50,
+        "fb": 2047,
+        "len": 34.0,
+        "turns": 9,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10354,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 16,
+        "fb": 2281,
+        "len": 36.0,
+        "turns": 14,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10355,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 36,
+        "fb": 1906,
+        "len": 32.82842712474619,
+        "turns": 10,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10356,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 20,
+        "fb": 2043,
+        "len": 34.24264068711929,
+        "turns": 11,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10357,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 16,
+        "fb": 1986,
+        "len": 35.41421356237309,
+        "turns": 12,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10358,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 17,
+        "fb": 2359,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10359,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 44,
+        "fb": 1862,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10360,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 21,
+        "fb": 1572,
+        "len": 36.0,
+        "turns": 15,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10361,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 45,
+        "fb": 2238,
+        "len": 32.82842712474619,
+        "turns": 18,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10362,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 21,
+        "fb": 1652,
+        "len": 37.41421356237309,
+        "turns": 19,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10363,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 19,
+        "fb": 2162,
+        "len": 32.82842712474619,
+        "turns": 13,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10364,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1969,
+        "len": 36.0,
+        "turns": 9,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10365,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 21,
+        "fb": 2282,
+        "len": 36.0,
+        "turns": 5,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10366,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 12,
+        "fb": 1867,
+        "len": 36.82842712474619,
+        "turns": 18,
+        "clear": 4.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10367,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 19,
+        "fb": 1829,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10368,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 1559,
+        "len": 35.41421356237309,
+        "turns": 14,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10369,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 16,
+        "fb": 2434,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10370,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 34,
+        "fb": 1727,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10371,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 41,
+        "fb": 1778,
+        "len": 33.41421356237309,
+        "turns": 11,
+        "clear": 4.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10372,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 22,
+        "fb": 2328,
+        "len": 36.82842712474619,
+        "turns": 19,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10373,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 1714,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10374,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 1771,
+        "len": 35.65685424949238,
+        "turns": 13,
+        "clear": 4.242640687119285,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10375,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 16,
+        "fb": 2203,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10376,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 42,
+        "fb": 1622,
+        "len": 33.41421356237309,
+        "turns": 11,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10377,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 20,
+        "fb": 2556,
+        "len": 34.242640687119284,
+        "turns": 13,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10378,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 13,
+        "fb": 2050,
+        "len": 34.0,
+        "turns": 12,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10379,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 21,
+        "fb": 2462,
+        "len": 37.65685424949238,
+        "turns": 17,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10380,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 7,
+        "fb": 2037,
+        "len": 32.82842712474619,
+        "turns": 10,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10381,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 34,
+        "fb": 1931,
+        "len": 35.41421356237309,
+        "turns": 9,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10382,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 31,
+        "fb": 1594,
+        "len": 33.41421356237309,
+        "turns": 8,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10383,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 2112,
+        "len": 35.41421356237309,
+        "turns": 17,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10384,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 37,
+        "fb": 1878,
+        "len": 33.41421356237309,
+        "turns": 13,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10385,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 38,
+        "fb": 1884,
+        "len": 34.0,
+        "turns": 3,
+        "clear": 4.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10386,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 31,
+        "fb": 1651,
+        "len": 33.41421356237309,
+        "turns": 8,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10387,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 19,
+        "fb": 1554,
+        "len": 34.82842712474619,
+        "turns": 12,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10388,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1822,
+        "len": 36.0,
+        "turns": 7,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10389,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 38,
+        "fb": 1956,
+        "len": 33.41421356237309,
+        "turns": 4,
+        "clear": 4.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10390,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 1597,
+        "len": 32.82842712474619,
+        "turns": 13,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10391,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 2260,
+        "len": 36.0,
+        "turns": 10,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10392,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 21,
+        "fb": 2269,
+        "len": 32.242640687119284,
+        "turns": 11,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10393,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 21,
+        "fb": 2113,
+        "len": 36.0,
+        "turns": 16,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10394,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 18,
+        "fb": 2368,
+        "len": 36.82842712474619,
+        "turns": 19,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10395,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 45,
+        "fb": 1615,
+        "len": 33.41421356237309,
+        "turns": 14,
+        "clear": 3.605551275463989,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10396,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 26,
+        "fb": 1532,
+        "len": 36.0,
+        "turns": 19,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10397,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 40,
+        "fb": 1745,
+        "len": 35.41421356237309,
+        "turns": 13,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10398,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 19,
+        "fb": 1663,
+        "len": 34.0,
+        "turns": 8,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10399,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 2513,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10400,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 39,
+        "fb": 2108,
+        "len": 36.24264068711929,
+        "turns": 18,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10401,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 20,
+        "fb": 1840,
+        "len": 35.41421356237309,
+        "turns": 18,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10402,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 43,
+        "fb": 1514,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10403,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 45,
+        "fb": 2003,
+        "len": 35.41421356237309,
+        "turns": 16,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10404,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 17,
+        "fb": 1997,
+        "len": 32.82842712474619,
+        "turns": 10,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10405,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 1586,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10406,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 40,
+        "fb": 1556,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 3.605551275463989,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10407,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 1729,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10408,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 49,
+        "fb": 1627,
+        "len": 33.41421356237309,
+        "turns": 12,
+        "clear": 4.242640687119285,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10409,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 24,
+        "fb": 1808,
+        "len": 35.41421356237309,
+        "turns": 11,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10410,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 49,
+        "fb": 2078,
+        "len": 36.0,
+        "turns": 11,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10411,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 43,
+        "fb": 1707,
+        "len": 35.41421356237309,
+        "turns": 20,
+        "clear": 3.605551275463989,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10412,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 1983,
+        "len": 35.41421356237309,
+        "turns": 15,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10413,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 18,
+        "fb": 1419,
+        "len": 34.828427124746185,
+        "turns": 15,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10414,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 26,
+        "fb": 1871,
+        "len": 32.82842712474619,
+        "turns": 10,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10415,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 26,
+        "fb": 1812,
+        "len": 35.41421356237309,
+        "turns": 16,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10416,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 22,
+        "fb": 1855,
+        "len": 35.41421356237309,
+        "turns": 11,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10417,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 48,
+        "fb": 1874,
+        "len": 35.41421356237309,
+        "turns": 16,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10418,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 1361,
+        "len": 34.82842712474619,
+        "turns": 18,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10419,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 44,
+        "fb": 1839,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10420,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 18,
+        "fb": 2192,
+        "len": 34.24264068711929,
+        "turns": 13,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10421,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 18,
+        "fb": 2098,
+        "len": 33.41421356237309,
+        "turns": 14,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10422,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 43,
+        "fb": 1682,
+        "len": 34.82842712474619,
+        "turns": 15,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10423,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 42,
+        "fb": 1785,
+        "len": 36.82842712474619,
+        "turns": 12,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10424,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 2090,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10425,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 43,
+        "fb": 2197,
+        "len": 33.41421356237309,
+        "turns": 8,
+        "clear": 3.605551275463989,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10426,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 36,
+        "fb": 1870,
+        "len": 37.41421356237309,
+        "turns": 16,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10427,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1972,
+        "len": 34.0,
+        "turns": 8,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10428,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 24,
+        "fb": 1888,
+        "len": 36.0,
+        "turns": 18,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10429,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1879,
+        "len": 34.0,
+        "turns": 13,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10430,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 24,
+        "fb": 1740,
+        "len": 33.41421356237309,
+        "turns": 15,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10431,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 10,
+        "fb": 1633,
+        "len": 35.41421356237309,
+        "turns": 13,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10432,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 20,
+        "fb": 1617,
+        "len": 35.41421356237309,
+        "turns": 11,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10433,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 41,
+        "fb": 1946,
+        "len": 36.0,
+        "turns": 8,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10434,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 1657,
+        "len": 37.41421356237309,
+        "turns": 13,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10435,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 41,
+        "fb": 1799,
+        "len": 35.41421356237309,
+        "turns": 14,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10436,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 48,
+        "fb": 1731,
+        "len": 32.82842712474619,
+        "turns": 10,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10437,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 40,
+        "fb": 1624,
+        "len": 35.41421356237309,
+        "turns": 9,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10438,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 50,
+        "fb": 1997,
+        "len": 37.41421356237309,
+        "turns": 12,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10439,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 38,
+        "fb": 2299,
+        "len": 33.41421356237309,
+        "turns": 9,
+        "clear": 4.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10440,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 1745,
+        "len": 34.0,
+        "turns": 5,
+        "clear": 5.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10441,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 31,
+        "fb": 2612,
+        "len": 36.0,
+        "turns": 12,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10442,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 16,
+        "fb": 1711,
+        "len": 34.0,
+        "turns": 13,
+        "clear": 4.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10443,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 1944,
+        "len": 35.41421356237309,
+        "turns": 16,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10444,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 49,
+        "fb": 1488,
+        "len": 36.82842712474619,
+        "turns": 16,
+        "clear": 5.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10445,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 2131,
+        "len": 36.82842712474619,
+        "turns": 9,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10446,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 16,
+        "fb": 1780,
+        "len": 33.41421356237309,
+        "turns": 14,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10447,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 18,
+        "fb": 2345,
+        "len": 34.82842712474619,
+        "turns": 15,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10448,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 34,
+        "fb": 2010,
+        "len": 35.41421356237309,
+        "turns": 16,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10449,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 34,
+        "fb": 1578,
+        "len": 34.24264068711929,
+        "turns": 13,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10450,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 21,
+        "fb": 2033,
+        "len": 33.41421356237309,
+        "turns": 6,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10451,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 45,
+        "fb": 2051,
+        "len": 35.41421356237309,
+        "turns": 10,
+        "clear": 3.605551275463989,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10452,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 48,
+        "fb": 1718,
+        "len": 34.82842712474619,
+        "turns": 13,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10453,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1632,
+        "len": 36.0,
+        "turns": 9,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10454,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 14,
+        "fb": 2397,
+        "len": 37.41421356237309,
+        "turns": 15,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10455,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 1760,
+        "len": 33.41421356237309,
+        "turns": 15,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10456,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 41,
+        "fb": 1586,
+        "len": 33.41421356237309,
+        "turns": 12,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10457,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 41,
+        "fb": 2145,
+        "len": 36.0,
+        "turns": 10,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10458,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 1872,
+        "len": 36.0,
+        "turns": 5,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10459,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 38,
+        "fb": 2188,
+        "len": 34.82842712474619,
+        "turns": 10,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10460,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 16,
+        "fb": 2089,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10461,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 36,
+        "fb": 1951,
+        "len": 34.0,
+        "turns": 13,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10462,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 42,
+        "fb": 2178,
+        "len": 34.24264068711929,
+        "turns": 14,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10463,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 43,
+        "fb": 1872,
+        "len": 36.0,
+        "turns": 8,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10464,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 48,
+        "fb": 1915,
+        "len": 33.65685424949238,
+        "turns": 16,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10465,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1498,
+        "len": 37.41421356237309,
+        "turns": 16,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10466,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 49,
+        "fb": 2425,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10467,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 37,
+        "fb": 2101,
+        "len": 36.0,
+        "turns": 13,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10468,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 2254,
+        "len": 34.0,
+        "turns": 5,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10469,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 1757,
+        "len": 35.41421356237309,
+        "turns": 13,
+        "clear": 5.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10470,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 31,
+        "fb": 1866,
+        "len": 34.0,
+        "turns": 3,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10471,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 20,
+        "fb": 2125,
+        "len": 35.41421356237309,
+        "turns": 14,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10472,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 1645,
+        "len": 35.41421356237309,
+        "turns": 13,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10473,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1727,
+        "len": 34.0,
+        "turns": 15,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10474,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 24,
+        "fb": 1871,
+        "len": 34.82842712474619,
+        "turns": 16,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10475,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 14,
+        "fb": 1872,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10476,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 41,
+        "fb": 1994,
+        "len": 33.41421356237309,
+        "turns": 8,
+        "clear": 4.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10477,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 14,
+        "fb": 1960,
+        "len": 36.0,
+        "turns": 11,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10478,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 50,
+        "fb": 2142,
+        "len": 37.41421356237309,
+        "turns": 16,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10479,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 17,
+        "fb": 1761,
+        "len": 32.82842712474619,
+        "turns": 8,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10480,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1870,
+        "len": 35.41421356237309,
+        "turns": 15,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10481,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 19,
+        "fb": 1810,
+        "len": 32.82842712474619,
+        "turns": 8,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10482,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 42,
+        "fb": 2387,
+        "len": 34.0,
+        "turns": 13,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10483,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 19,
+        "fb": 2153,
+        "len": 32.82842712474619,
+        "turns": 7,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10484,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 43,
+        "fb": 1853,
+        "len": 34.0,
+        "turns": 9,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10485,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 18,
+        "fb": 1613,
+        "len": 32.242640687119284,
+        "turns": 9,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10486,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 12,
+        "fb": 2086,
+        "len": 36.0,
+        "turns": 7,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10487,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 45,
+        "fb": 2160,
+        "len": 36.82842712474619,
+        "turns": 14,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10488,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 1809,
+        "len": 35.41421356237309,
+        "turns": 13,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10489,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 45,
+        "fb": 2598,
+        "len": 34.82842712474619,
+        "turns": 16,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10490,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 2455,
+        "len": 32.24264068711929,
+        "turns": 9,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10491,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 2237,
+        "len": 36.0,
+        "turns": 9,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10492,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 42,
+        "fb": 1997,
+        "len": 33.41421356237309,
+        "turns": 8,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10493,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 42,
+        "fb": 1738,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10494,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 18,
+        "fb": 2045,
+        "len": 32.82842712474619,
+        "turns": 12,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10495,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 1903,
+        "len": 35.41421356237309,
+        "turns": 6,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10496,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 34,
+        "fb": 2443,
+        "len": 35.41421356237309,
+        "turns": 9,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10497,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 2560,
+        "len": 35.41421356237309,
+        "turns": 12,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10498,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 36,
+        "fb": 2068,
+        "len": 33.41421356237309,
+        "turns": 11,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10499,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 48,
+        "fb": 2039,
+        "len": 34.0,
+        "turns": 9,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10500,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 39,
+        "fb": 2104,
+        "len": 36.0,
+        "turns": 12,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10501,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 1903,
+        "len": 35.41421356237309,
+        "turns": 15,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10502,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 11,
+        "fb": 1932,
+        "len": 35.41421356237309,
+        "turns": 16,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10503,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 34,
+        "fb": 1333,
+        "len": 35.41421356237309,
+        "turns": 16,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10504,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 17,
+        "fb": 2032,
+        "len": 36.82842712474619,
+        "turns": 15,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10505,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 21,
+        "fb": 2038,
+        "len": 32.24264068711929,
+        "turns": 12,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10506,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 18,
+        "fb": 1824,
+        "len": 33.41421356237309,
+        "turns": 6,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10507,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 2588,
+        "len": 36.0,
+        "turns": 11,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10508,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 1587,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10509,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 2041,
+        "len": 36.82842712474619,
+        "turns": 14,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10510,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 31,
+        "fb": 1664,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10511,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 24,
+        "fb": 2112,
+        "len": 34.82842712474619,
+        "turns": 12,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10512,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 45,
+        "fb": 1998,
+        "len": 34.82842712474619,
+        "turns": 12,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10513,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 12,
+        "fb": 1677,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10514,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 49,
+        "fb": 1717,
+        "len": 36.0,
+        "turns": 12,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10515,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 23,
+        "fb": 1548,
+        "len": 36.0,
+        "turns": 13,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10516,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1925,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10517,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 26,
+        "fb": 2087,
+        "len": 36.0,
+        "turns": 15,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10518,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 36,
+        "fb": 2457,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10519,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 18,
+        "fb": 2071,
+        "len": 33.41421356237309,
+        "turns": 13,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10520,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 17,
+        "fb": 1432,
+        "len": 34.24264068711929,
+        "turns": 15,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10521,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 37,
+        "fb": 1994,
+        "len": 33.41421356237309,
+        "turns": 9,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10522,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 26,
+        "fb": 1583,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10523,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 22,
+        "fb": 2214,
+        "len": 34.0,
+        "turns": 15,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10524,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 12,
+        "fb": 2343,
+        "len": 33.41421356237309,
+        "turns": 13,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10525,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 39,
+        "fb": 2404,
+        "len": 36.82842712474619,
+        "turns": 19,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10526,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 1988,
+        "len": 34.0,
+        "turns": 9,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10527,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 26,
+        "fb": 1697,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10528,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 26,
+        "fb": 2602,
+        "len": 35.41421356237309,
+        "turns": 19,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10529,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 24,
+        "fb": 1771,
+        "len": 34.24264068711929,
+        "turns": 13,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10530,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 36,
+        "fb": 1881,
+        "len": 34.0,
+        "turns": 10,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10531,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 17,
+        "fb": 1928,
+        "len": 32.82842712474619,
+        "turns": 7,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10532,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 37,
+        "fb": 1624,
+        "len": 34.0,
+        "turns": 8,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10533,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 20,
+        "fb": 1733,
+        "len": 32.82842712474619,
+        "turns": 15,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10534,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 2119,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10535,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 49,
+        "fb": 2084,
+        "len": 35.41421356237309,
+        "turns": 15,
+        "clear": 4.242640687119285,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10536,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 16,
+        "fb": 2254,
+        "len": 32.82842712474619,
+        "turns": 8,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10537,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 1637,
+        "len": 32.82842712474619,
+        "turns": 11,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10538,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 2051,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10539,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 50,
+        "fb": 1827,
+        "len": 35.41421356237309,
+        "turns": 16,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10540,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 42,
+        "fb": 1827,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10541,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 34,
+        "fb": 2213,
+        "len": 34.0,
+        "turns": 9,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10542,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 14,
+        "fb": 1468,
+        "len": 33.65685424949238,
+        "turns": 12,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10543,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 21,
+        "fb": 2395,
+        "len": 32.82842712474619,
+        "turns": 15,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10544,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 15,
+        "fb": 1817,
+        "len": 35.41421356237309,
+        "turns": 12,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10545,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 40,
+        "fb": 2021,
+        "len": 35.41421356237309,
+        "turns": 15,
+        "clear": 4.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10546,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 43,
+        "fb": 1711,
+        "len": 35.41421356237309,
+        "turns": 13,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10547,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 26,
+        "fb": 1659,
+        "len": 34.0,
+        "turns": 9,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10548,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1513,
+        "len": 33.41421356237309,
+        "turns": 13,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10549,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 31,
+        "fb": 2091,
+        "len": 35.071067811865476,
+        "turns": 15,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10550,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 19,
+        "fb": 1916,
+        "len": 32.82842712474619,
+        "turns": 9,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10551,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1851,
+        "len": 32.82842712474619,
+        "turns": 11,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10552,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 39,
+        "fb": 1699,
+        "len": 35.41421356237309,
+        "turns": 14,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10553,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 37,
+        "fb": 2294,
+        "len": 34.0,
+        "turns": 15,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10554,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 10,
+        "fb": 1584,
+        "len": 34.0,
+        "turns": 13,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10555,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 18,
+        "fb": 1671,
+        "len": 33.41421356237309,
+        "turns": 15,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10556,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 45,
+        "fb": 2067,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10557,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 39,
+        "fb": 2054,
+        "len": 36.0,
+        "turns": 12,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10558,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 1947,
+        "len": 34.0,
+        "turns": 7,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10559,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 2361,
+        "len": 36.0,
+        "turns": 14,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10560,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 20,
+        "fb": 1426,
+        "len": 32.82842712474619,
+        "turns": 11,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10561,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 41,
+        "fb": 2010,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 3.605551275463989,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10562,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 2224,
+        "len": 33.41421356237309,
+        "turns": 12,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10563,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 2462,
+        "len": 34.0,
+        "turns": 11,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10564,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 40,
+        "fb": 1683,
+        "len": 34.0,
+        "turns": 15,
+        "clear": 3.605551275463989,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10565,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 17,
+        "fb": 2276,
+        "len": 33.41421356237309,
+        "turns": 10,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10566,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 21,
+        "fb": 1586,
+        "len": 32.82842712474619,
+        "turns": 11,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10567,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 31,
+        "fb": 1967,
+        "len": 32.82842712474619,
+        "turns": 11,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10568,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 19,
+        "fb": 1554,
+        "len": 32.242640687119284,
+        "turns": 13,
+        "clear": 0.0,
+        "coll": 1
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10569,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 1878,
+        "len": 35.41421356237309,
+        "turns": 10,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10570,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 50,
+        "fb": 1767,
+        "len": 34.82842712474619,
+        "turns": 12,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10571,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 47,
+        "fb": 2151,
+        "len": 33.41421356237309,
+        "turns": 14,
+        "clear": 4.123105625617661,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10572,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 38,
+        "fb": 1842,
+        "len": 35.41421356237309,
+        "turns": 13,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10573,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 8,
+        "fb": 2246,
+        "len": 35.41421356237309,
+        "turns": 12,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10574,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 38,
+        "fb": 2143,
+        "len": 34.0,
+        "turns": 9,
+        "clear": 4.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10575,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 48,
+        "fb": 2181,
+        "len": 33.41421356237309,
+        "turns": 12,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10576,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 7,
+        "fb": 2262,
+        "len": 33.41421356237309,
+        "turns": 11,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10577,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 24,
+        "fb": 1679,
+        "len": 33.41421356237309,
+        "turns": 9,
+        "clear": 3.1622776601683795,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10578,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 45,
+        "fb": 1999,
+        "len": 35.41421356237309,
+        "turns": 9,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10579,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 26,
+        "fb": 1734,
+        "len": 35.41421356237309,
+        "turns": 17,
+        "clear": 3.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10580,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 1910,
+        "len": 34.0,
+        "turns": 10,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10581,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 7,
+        "fb": 1889,
+        "len": 35.65685424949238,
+        "turns": 24,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10582,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 1934,
+        "len": 36.82842712474619,
+        "turns": 15,
+        "clear": 4.242640687119285,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10583,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 37,
+        "fb": 2341,
+        "len": 32.82842712474619,
+        "turns": 9,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10584,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 1889,
+        "len": 36.82842712474619,
+        "turns": 15,
+        "clear": 3.605551275463989,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10585,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 48,
+        "fb": 1709,
+        "len": 36.0,
+        "turns": 11,
+        "clear": 5.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10586,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 38,
+        "fb": 1844,
+        "len": 33.41421356237309,
+        "turns": 13,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10587,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 13,
+        "fb": 2285,
+        "len": 35.41421356237309,
+        "turns": 7,
+        "clear": 1.4142135623730951,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10588,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 25,
+        "fb": 1776,
+        "len": 33.41421356237309,
+        "turns": 13,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10589,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 50,
+        "fb": 2337,
+        "len": 36.82842712474619,
+        "turns": 14,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10590,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 35,
+        "fb": 2097,
+        "len": 36.0,
+        "turns": 10,
+        "clear": 2.23606797749979,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10591,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 10,
+        "fb": 2436,
+        "len": 35.41421356237309,
+        "turns": 10,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10592,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 1682,
+        "len": 35.41421356237309,
+        "turns": 14,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10593,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 20,
+        "fb": 1654,
+        "len": 34.0,
+        "turns": 17,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10594,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 26,
+        "fb": 1676,
+        "len": 35.41421356237309,
+        "turns": 13,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10595,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 13,
+        "fb": 1853,
+        "len": 35.41421356237309,
+        "turns": 16,
+        "clear": 2.8284271247461903,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10596,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 30,
+        "fb": 1665,
+        "len": 32.82842712474619,
+        "turns": 11,
+        "clear": 2.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10597,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 31,
+        "fb": 1596,
+        "len": 38.0,
+        "turns": 16,
+        "clear": 1.0,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10598,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 46,
+        "fb": 2207,
+        "len": 35.41421356237309,
+        "turns": 15,
+        "clear": 4.47213595499958,
+        "coll": 0
+      }
+    },
+    {
+      "method": "DRSAFE",
+      "seed": 10599,
+      "noise": "n1",
+      "params": {
+        "R": 4.5,
+        "K": 2.0,
+        "d_safe": 1.5,
+        "ants": 60,
+        "iterations": 50,
+        "label": "a60_i50_R4.5"
+      },
+      "result": {
+        "ok": true,
+        "conv": 39,
+        "fb": 1103,
+        "len": 33.41421356237309,
+        "turns": 4,
+        "clear": 4.0,
+        "coll": 0
+      }
+    }
+  ]
+}

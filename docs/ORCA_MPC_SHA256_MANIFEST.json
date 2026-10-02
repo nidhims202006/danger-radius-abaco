@@ -1,0 +1,71 @@
+{
+  "package": "Danger-Radius_Submission_Code_v67",
+  "note": "files added or changed at v67 (post hoc ORCA/MPC); the C6 manifest covers the unchanged v66.5 files",
+  "files": [
+    {
+      "path": "experiments/orca_mpc_baselines.py",
+      "sha256": "7d5b422dc7dd81c5f4639461505944826cdf4e7a3b9b6bac281240adb7249a3c",
+      "bytes": 9035
+    },
+    {
+      "path": "experiments/phase4_runner_orca_mpc.py",
+      "sha256": "585f5ffccd0717dce6e6165f912a268abce12291ca4ce4abd92ac62ba829c8df",
+      "bytes": 8906
+    },
+    {
+      "path": "experiments/verify_orca_mpc_runner.py",
+      "sha256": "2e5fc3e349778e36358bc6f9870a8f5304e32f13c4a1edd8bbec709bd8127416",
+      "bytes": 1099
+    },
+    {
+      "path": "experiments/run_orca_mpc_tuning.py",
+      "sha256": "19e5abd0d0b4236e9676b0ddaf21f5567913596939f480f5088e3201b0338bbe",
+      "bytes": 2122
+    },
+    {
+      "path": "experiments/run_orca_mpc_eval.py",
+      "sha256": "c0fe3bace6519baaa3bd22537e5bf94eb045f09a64ce81e62322efe2df76bb33",
+      "bytes": 1134
+    },
+    {
+      "path": "experiments/analyze_orca_mpc_paired.py",
+      "sha256": "87b44fc16b8bfc7c5cc421fe5deae478e1617423114e63fb73744df307358e10",
+      "bytes": 4125
+    },
+    {
+      "path": "experiments/check_orca_mpc_numbers.py",
+      "sha256": "e200d5968b55b56311c90fa8556a0e7fc0146b5959effcfaa86596e204bd6457",
+      "bytes": 2982
+    },
+    {
+      "path": "docs/PRIORITY20_ORCA_MPC_BASELINES.md",
+      "sha256": "4b9d56a903ed58410dd6409a178e0406416a47a08c0886dd8b184dd17f9cc741",
+      "bytes": 2250
+    },
+    {
+      "path": "results/phase4_orca_mpc_perrun.json",
+      "sha256": "60042a65a029195dda1cd1b7ec351b7a876956c2bebcff07a08b0a73ae393812",
+      "bytes": 173920
+    },
+    {
+      "path": "results/phase4_orca_mpc_tuning/tuning_summary.json",
+      "sha256": "1ea1ae139501e5aa4f091fd728eb86fe87829e57e79db40d7498d49000fbc91a",
+      "bytes": 4100
+    },
+    {
+      "path": "results/phase4_orca_mpc_stats/orca_mpc_paired_statistics.json",
+      "sha256": "7bb24a224024c5dfc1e1652c5000d3c371de27440249f4216cc5de77e552814b",
+      "bytes": 7207
+    },
+    {
+      "path": "results/phase4_orca_mpc_stats/table_17C_extension.csv",
+      "sha256": "29d81737f99133a3afbb5b42900d0ba4cb77108eb4bd666dd53feeb51799097c",
+      "bytes": 474
+    },
+    {
+      "path": "results/phase4_orca_mpc_stats/INPUT_SHA256.json",
+      "sha256": "70448e5c3a954c150f7de959ec8e1a61410f6d70d0e90aea512a2a884aa3d31b",
+      "bytes": 338
+    }
+  ]
+}
