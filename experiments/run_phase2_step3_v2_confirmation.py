@@ -1,10 +1,12 @@
 import json, os, multiprocessing as mp
 from phase2_scenario_generator import generate_scenarios
 from phase3_runner_v2 import run_scenario
+# v36: PARAMS corrected to the settings recorded in results/phase2_step3_v2/perrun.json (identical to run_phase2_step3_v2_chunk.py).
+# Earlier releases listed the tuning-stage values (HB a8_i10, DR-T R4.5_K1) here, which do not reproduce the stored results.
 PARAMS={
-'HB':{'ants':8,'iterations':10,'label':'a8_i10'},
+'HB':{'ants':16,'iterations':20,'label':'a16_i20'},
 'HBP':{'ants':16,'iterations':20,'label':'a16_i20'},
-'DR-T':{'R':4.5,'K':1,'ants':12,'iterations':20,'label':'R4.5_K1'},
+'DR-T':{'R':3.5,'K':0.5,'ants':12,'iterations':20,'label':'R3.5_K0.5'},
 'DR-SAFE':{'R':3.5,'K':0.5,'D_SAFE':0.75,'ants':12,'iterations':20,'label':'R3.5_K0.5_D0.75'},
 'space_time_astar':{'horizon':30,'label':'h30'},
 'dstar_dwa':{'progress_weight':1,'clearance_weight':0.1,'max_expansions':50,'label':'p1_c0.1'}}

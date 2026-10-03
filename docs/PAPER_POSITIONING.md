@@ -1,25 +1,55 @@
-# What the paper is (decision taken in v22, 2026-09-30)
+# Paper positioning and evidence boundary
 
-## Decision
-The proposed method is the **time-aligned soft danger-radius cost (DR-T)**. **DR-SAFE (= DR-T + hard clearance floor)** is an extension that the paper reports honestly as adding no detectable benefit with exact estimates.
-The title already describes DR-T ("Time-Aligned Danger-Radius Cost Weighting ..."), so it stays. What changed is the method name, the abstract, the contribution paragraph, Section 4.1, the conclusion and a new Appendix C.
+## Primary contribution
 
-## Why (evidence already in the paper, nothing new run)
-| Question | Answer from the data | Where |
-|---|---|---|
-| Where do the collision reductions come from? | Prediction. HB 0.203 -> HBP 0.077 (dev), 0.257 -> 0.093 (confirmation); DR-T 0.050 / 0.060 | Tables 3, 9, 13 |
-| Does the floor add anything with exact estimates? | No. DR-SAFE minus soft-only: collisions -0.017 / 0.000, sharp turns +0.37 / +0.17, all n.s. (confirmation); dev Holm p >= 0.64 | Tables 10, Section 5.10 |
-| Is the floor really enforced? | D_SAFE = 1.0: relaxed on the winning path in 0 / 300 runs. D_SAFE = 1.5: in 88 / 300 runs (29%) | Table A.1 |
-| What does DR-T give beyond prediction? | Smoother, shorter, more clearance: vs HBP 1.7-2.1 fewer sharp turns, 0.8-0.9 m shorter (Holm p < 0.0001, both blocks). Collisions vs HBP: -0.027 / -0.033, Holm p 0.30 | Table C.1 (post hoc) |
-| Is there any evidence FOR the floor? | Only under noisy estimates: DR-SAFE 1.5 vs noisy HBP, Holm p 0.013 (suite), 0.030 (main); DR-T (soft only) does not reduce collisions vs noisy HBP. Floor-vs-soft under noise is post hoc (p = 0.004 main env, 0.14 suite) and comes with a 29% relaxation rate | Tables 7-8, Section 5.7 |
+The paper's primary design contribution is the **time-aligned danger-radius cost (DR-T)**. The cost is
+computed using the predicted obstacle position at the step at which a candidate cell would be reached.
+The underlying ABACO optimisation framework is established work; the contribution is the time-aligned
+obstacle-cost modification evaluated inside that framework.
 
-## Claims that survive / claims dropped
-- Keep: evaluating obstacle cost at the predicted position for the arrival step is what reduces collisions; a smooth cost gives smoother, shorter, safer-margin paths; the effect on collisions is small once prediction is present and not consistent across seed blocks.
-- Drop (v22 abstract no longer says it): "halved collisions" as a property of the danger radius; DR-SAFE as *the* proposed method; anything implying a safety guarantee.
-- Do not treat the floor as a co-contribution. A limited post hoc signal exists under some noisy-estimate conditions, but it is inconsistent across the tested blocks, while the exact-estimate ablation shows no incremental benefit. DR-SAFE remains a secondary evaluated extension.
+## Secondary extension
 
-## What would change the decision
-The current paper does not make the floor a headline component. Any future claim for the floor would require a separately pre-registered comparison against soft-cost-only across multiple noise levels with relaxation explicitly controlled and reported.
+**DR-SAFE** adds a hard inner clearance floor to DR-T. The exact-estimate ablation did not detect an
+incremental benefit from the floor. Limited noisy-estimate signals are retained as exploratory evidence,
+but they are not treated as a primary contribution. The floor is not a safety guarantee.
 
-## Disclosure that must stay in the paper
-The pre-registered primary families (Tables 4, 6, 14) are about DR-SAFE. DR-T comparisons with HB and HBP were not declared beforehand (dev block: DR-T was added after the design was informed by those seeds; confirmation block: arm was declared, comparisons were not). They are reported as post hoc in Appendix C and the abstract says "post hoc". Do not relabel them as primary in the response letter.
+## Statistical positioning
+
+The manuscript uses the term **pre-specified** to mean fixed in an internal written protocol with code
+and parameter hashes recorded before the relevant runs. It does **not** imply external registration.
+DR-T-specific inferential comparisons that were added after the original analysis families were fixed are
+reported as post hoc. ORCA/MPC were also added post hoc and are bounded by the manuscript's stated
+inference scope.
+
+The paper should not relabel post hoc analyses as primary analyses or imply external preregistration.
+
+## Fixed-grid tuning limitation
+
+The historical fixed-grid development block retains an asymmetric tuning history. Common ABACO
+parameters were fixed, but DR-SAFE received a broader formulation-specific search over its parameters.
+The later R=5.5 extension was not retroactively rerun as the frozen R=4.5 confirmation block. Equal-budget
+tuning utilities are included in the repository, but no full historical fixed-grid equal-budget rebuild is
+claimed.
+
+Accordingly, fixed-grid descriptive differences should not be presented as a retroactive hyperparameter-
+matched ranking of methods.
+
+## Closed-loop implementation boundary
+
+The 200-scenario closed-loop study uses a controlled ABACO-family adapter rather than the legacy
+fixed-grid source implementation. The adapter differences are documented in `docs/ADAPTER_DIFFERENCES.md`.
+The closed-loop results are therefore execution-level evidence for the time-aligned design within that
+controlled interface, not source-level reproduction of the legacy fixed-grid implementation.
+
+## Application and validation boundary
+
+The intended application context is indoor autonomous mobile robots operating in shared workspaces,
+including warehouse-like environments. The repository includes a deterministic warehouse-style scenario
+generator, but the study does not report a completed full warehouse validation. Likewise, the N=8
+high-fidelity study is simulation/interface evidence only; it is not physical-robot or ROS/Gazebo validation.
+
+## Required wording discipline
+
+Do not describe DR-T as a universally superior dynamic-obstacle planner. Do not describe DR-SAFE as
+providing a safety guarantee. Keep the distinction between fixed-grid development evidence, closed-loop
+execution evidence, post hoc analyses and high-fidelity simulation/interface validation explicit.

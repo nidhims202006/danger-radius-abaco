@@ -1,30 +1,37 @@
-# Danger-Radius / ABACO — Submission Code & Reproducibility Package
+# Danger-Radius / ABACO — ESWA Reproducibility Package
 
-**Package:** v35-eswa-review-item4-public-repository-and-data-availability  
-**Manuscript:** supplied separately; intentionally NOT included in this archive.
+**Release:** `v36-eswa-post-hoc-legacy-pheromone-and-aco-dwa-hybrids`
 
-This archive contains the experiment code, stored outputs, figures, protocols, analysis scripts and
-verification material corresponding to the current manuscript evidence.
+The manuscript is a separate deliverable and is intentionally **not** included in this archive.
+This repository contains the experiment code, stored results, figures, analysis scripts, protocols and
+integrity records needed to inspect and reproduce the reported numerical evidence.
 
-## Evidence blocks
+## Evidence scope
 
-1. Historical fixed-grid ABACO / danger-radius studies and stored analyses.
-2. Phase-2 corrected closed-loop confirmation on scenarios 4–203.
-3. Matched-interface ACO+DWA and SIPP-style supplementary baselines.
-4. Closed-loop stratification by workspace, density, dynamic-obstacle count, motion model and observation noise.
-5. Clean Step-6 DR-T / DR-SAFE-T multi-noise study.
-6. Runtime / memory / scaling benchmark.
-7. A1 prediction-index sensitivity (post hoc).
-8. A3 paired closed-loop binary-outcome analysis (post hoc; 10 tests, exact McNemar, Holm correction, 4,000 bootstrap replicates).
-9. Priority-13 fresh 300-run fixed-grid multi-noise robustness block (Table 22) with stored summary checks.
-10. Priority-8 computational scaling and memory benchmark (Tables 25–26) with stored runtime/RSS checks.
-11. Priority-9 APF mathematical distinction verified in the Method section; see `docs/METHOD_APF_DISTINCTION.md`.
-12. Priority-11 tuning-parity caveat documented for the fixed-grid evidence; see `docs/PRIORITY11_TUNING_PARITY.md`.
-13. Priority-12 practical niche documented: DR-T is positioned as an incremental time-aligned cost modification for existing ACO/grid pipelines; see `docs/PRIORITY12_PRACTICAL_NICHE.md`.
-14. Priority-13 practical significance documented: 7.6% path-length and 24.1% sharp-turn reductions for DR-SAFE D_SAFE=1.5 versus HBP in the randomized exact-estimate suite; see `docs/PRIORITY13_PRACTICAL_SIGNIFICANCE.md`.
-15. Priority-14 scaling revision: Tables 25–26 aggregate three stored deterministic cases per grid size (1/3/5 dynamic obstacles) using median/IQR; Table 26 uses traced planner-side Python allocations rather than process RSS; see `docs/PRIORITY14_SCALING_MEDIAN_IQR.md`.
-16. Priority-20 post hoc ORCA and MPC closed-loop baselines (scenarios 4–203; extends the A3 family from 10 to 14 tests); see `docs/PRIORITY20_ORCA_MPC_BASELINES.md`.
-17. Review item 2 floor-evidence boundary: DR-T is the primary contribution; DR-SAFE is a secondary floor extension with no detectable exact-estimate incremental benefit; see `docs/FLOOR_EVIDENCE_BOUNDARY.md`.
+- **DR-T is the primary design contribution.** It evaluates the obstacle cost at the predicted
+  obstacle position for the step at which a candidate cell would be reached.
+- **DR-SAFE is a secondary hard-clearance-floor extension.** The exact-estimate ablation did not
+  detect an incremental floor benefit, so the floor is not presented as a safety guarantee or as the
+  mechanism responsible for the main DR-T result. See `docs/FLOOR_EVIDENCE_BOUNDARY.md`.
+- The principal closed-loop confirmation uses the common world/observation clock, Kalman state
+  estimation, five-tick scheduled replanning and execution-level collision checks.
+- The held-out high-fidelity validation (`N=8`, scenarios 204–211) uses continuous-kinematic
+  simulation, noisy CV-Kalman estimation, five-tick replanning and swept-segment collision checks.
+  It is **simulation/interface evidence only**, not physical-robot or ROS/Gazebo validation.
+- A deterministic warehouse-style scenario generator is included, but no full warehouse validation
+  result is claimed.
+- Equal-budget tuning utilities are included. The historical fixed-grid development results retain
+  an asymmetric tuning history; that limitation is documented rather than presented as a retroactively
+  equal-budget comparison.
+- Post hoc phase-5 analyses (legacy-pheromone adapter; ACO+DWA with a prediction-aware ACO stage; manuscript Tables 4A and 4B) are
+  included with a reproducibility gate; see `docs/PHASE5_POST_HOC.md`. They are post hoc, use one scenario set and no retuning.
+- ORCA and MPC are included as post hoc matched-interface closed-loop baselines; their results are
+  reported descriptively where the manuscript specifies the applicable inference boundary.
+
+## Public release identifiers
+
+- GitHub: https://github.com/nidhims202006/danger-radius-abaco.git
+- Zenodo: https://doi.org/10.5281/zenodo.23106834
 
 ## Installation
 
@@ -33,97 +40,76 @@ pip install -r requirements.txt
 export PYTHONPATH=abaco:danger_radius:baselines:experiments
 ```
 
-## Main stored-result checks
+## Stored-result verification
+
+Run the lightweight checks first:
 
 ```bash
 python3 experiments/verify_reproduction.py 12
 python3 experiments/check_scaling_benchmark.py
 python3 experiments/check_priority8_scaling.py
 python3 experiments/check_priority14_scaling.py
+python3 experiments/check_dstar_compat.py
 ```
 
-The first command performs the repository's stored-result reproduction spot-check; the second validates the
-stored 90-case scaling matrix. The third validates the manuscript Tables 25-26 scaling and RSS cells against the stored
-3-dynamic-obstacle benchmark slice. The fourth validates the revised median/IQR aggregation across the three stored cases
-per grid size (1, 3 and 5 dynamic obstacles).
+The checks operate on stored results and do not require a full experiment rerun.
 
-## Closed-loop results
+### D* Lite compatibility
 
-Primary stored results:
+`experiments/phase3_abaco.py` provides a newly authored, runner-compatible `FastDStarLite` replacement
+built on the packaged `DStarLite` implementation. The historical standalone `FastDStarLite` source was
+not recovered from the available archives, so this is a compatibility reconstruction, not source-level
+recovery.
 
-- `results/phase2_step3_v2/perrun.json`
-- `results/phase2_step3_v2/summary.json`
-- `results/phase2_strong_baselines_perrun.json`
+The full check on scenarios 4–203 gives:
 
-The common closed-loop runner is `experiments/phase3_runner_v3.py`.
+- 199/200 exact stored-run matches;
+- one disclosed mismatch (scenario 189, collision flag only);
+- 0 timeouts;
+- stored success 100.0%, replacement success 100.0%;
+- stored any-collision 22.5%, replacement any-collision 22.0%.
 
-### D* Lite compatibility module
+The stored per-run results remain the reference values for the manuscript D* Lite + DWA rows.
+See `docs/DSTAR_LITE_REPLACEMENT.md`, `docs/DSTAR_LITE_REPRODUCIBILITY.md` and
+`docs/DLITE_SOURCE_MANIFEST.json`.
 
-`experiments/phase3_abaco.py` re-exports the closed-loop ABACO adapter and provides a newly authored `FastDStarLite` replacement
-(built on `DStarLite` in `experiments/phase2_planners.py`, with the `max_expansions` budget applied to every
-re-computation in `update_blocked` and `path`). The original standalone source was absent from the earlier archive, so this
-is a newly authored runner-compatible replacement, not a recovered file.
+## Main reproducibility material
 
-Check (`python3 experiments/check_dstar_compat.py`, results in `results/dstar_compat_check/`): on all 200 scenarios (IDs 4-203)
-199 stored D* Lite + DWA runs are reproduced exactly; scenario 189 differs in its collision flag (stored True, rerun False;
-aggregate any-collision 22.5% stored vs 22.0% rerun, success 100.0% in both). The stored per-run results in
-`results/phase2_step3_v2/perrun.json` remain the reference for the D* Lite + DWA rows of Table 4.
-Planning-time values are environment-dependent.
-
-## A1 prediction-index sensitivity
-
-```bash
-cd experiments
-export PYTHONPATH=.:../abaco:../danger_radius:../baselines
-ADAPTER=phase3_abaco_v3 python3 run_a1_sensitivity.py 4 203 ../results/a1_sensitivity/perrun_v3.json
-cd ..
-python3 experiments/analyze_a1_sensitivity.py
-```
-
-Stored outputs: `results/a1_sensitivity/`.
-
-## A3 post hoc paired statistics
-
-```bash
-python3 experiments/analyze_a3_paired_statistics.py
-```
-
-Outputs are in `results/a3_paired_statistics/`, including `table_17C.md`, `table_17C.csv` and the JSON analysis.
-The family contains 5 comparisons × 2 binary outcomes, exact two-sided McNemar tests, Holm correction across
-all 10 tests, and 4,000-replicate percentile bootstrap CIs. This family is explicitly post hoc and separate from
-the pre-specified primary statistical families.
+| Area | Main files |
+|---|---|
+| Fixed-grid / historical results | `results/`, `abaco/`, `danger_radius/` |
+| Closed-loop confirmation | `experiments/phase3_runner_v3.py`, `results/phase2_step3_v2/` |
+| A1 prediction-index sensitivity | `experiments/run_a1_sensitivity.py`, `experiments/analyze_a1_sensitivity.py` |
+| A3 paired statistics | `experiments/analyze_a3_paired_statistics.py`, `results/a3_paired_statistics/` |
+| High-fidelity validation | `experiments/high_fidelity_kinematic_validation.py`, `results/high_fidelity_kinematic_validation/` |
+| Scaling / memory checks | `experiments/aggregate_scaling_cases.py`, `experiments/check_priority14_scaling.py`, `results/scaling_memory_*.json*` |
+| ORCA / MPC baselines | `experiments/*orca_mpc*`, `results/phase4_orca_mpc*`, `docs/ORCA_MPC_RERUN_RECONCILIATION_v30.md` |
+| Warehouse generator | `experiments/warehouse_scenario_generator.py` |
+| Protocols and evidence boundaries | `docs/` |
 
 ## Manuscript number checking
 
-```bash
-python3 experiments/check_paper_numbers.py /path/to/Danger-Radius_Paper_v75_FINAL.docx
-```
+The manuscript is maintained separately. The repository includes the checker:
 
-The manuscript is maintained separately and is not included in this archive. `check_paper_numbers.py` now also verifies Table 15 against the stored Priority-13 and Step-6 summary outputs.
+```bash
+python3 experiments/check_paper_numbers.py /path/to/Danger-Radius_Paper_ESWA_revised_v39.docx
+python3 experiments/check_phase5_numbers.py /path/to/Danger-Radius_Paper_ESWA_revised_v39.docx   # Tables 4A and 4B (run from experiments/)
+```
 
 ## Integrity
 
-`docs/C6_SHA256_MANIFEST.json` is the single authoritative file manifest for this package. The method-selection boundary and intended architectural use are documented in `docs/METHOD_SELECTION_SCOPE.md`.
-The obsolete root-level `SHA256_MANIFEST.txt` was removed to avoid conflicting manifests.
+`docs/C6_SHA256_MANIFEST.json` is the authoritative SHA-256 manifest for the package contents,
+excluding the manifest itself to avoid a self-hash cycle. The D* Lite-specific source manifest and
+ORCA/MPC manifest provide additional targeted integrity checks.
 
-## Package exclusions
+## Limitations that must remain explicit
 
-The manuscript DOCX/PDF is not included. Superseded intermediate results, Python caches and manuscript-editing
-scripts are excluded unless required for reproduction of the current evidence.
+This package does **not** establish physical-robot validation, ROS/Gazebo validation, or a completed
+warehouse-scale execution study. It also does not retroactively rebuild the historical fixed-grid
+baseline results under a common tuning budget. These are disclosed limitations of the evidence package,
+not omitted experiments.
 
 ## License and citation
 
 Code is released under the MIT License. Citation metadata are provided in `CITATION.cff`.
-The reproducibility materials are publicly available through the project GitHub repository (https://github.com/nidhims202006/danger-radius-abaco.git) and are archived on Zenodo under DOI 10.5281/zenodo.23106834. The Zenodo DOI is the persistent citation identifier for the released materials. The previous statement that no public DOI was claimed should be disregarded. This archive is the citable release associated with the study. The first command performs the repository's stored-result reproduction spot-check; the second validates the
-once an actual public deposit exists.
-
-
-## Priority 15 — baseline coverage
-The manuscript explicitly distinguishes the implemented closed-loop baselines from contextual literature. ORCA/MPC supplementary results are retained in the current evidence package.
-
-
-Priority 17: D* Lite rerun completed on scenarios 4–203: 199/200 exact matches, 0 timeouts; scenario 189 remains a collision-flag mismatch. See `docs/PRIORITY17_DSTAR_RERUN.md`.
-
-Priority 18: ESWA literature update completed. Added Li et al. (2024) and Zhang et al. (2026) with corresponding related-work citations. No experimental or numerical result changed. See `docs/PRIORITY18_ESWA_LITERATURE_UPDATE.md`.
-
-16. Review item 4 publication metadata: GitHub and Zenodo identifiers are included in the repository metadata and data-availability documentation.
+The Zenodo DOI is the persistent archival identifier for the released reproducibility materials.

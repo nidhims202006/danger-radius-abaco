@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite it using the metadata below."
 title: "Danger-Radius / ABACO: Submission Code and Reproducibility Package (time-aligned danger-radius cost for dynamic obstacles in ABACO grid path planning)"
-version: "v35-eswa-review-item4-public-repository-and-data-availability"
+version: "v36-eswa-post-hoc-legacy-pheromone-and-aco-dwa-hybrids"
 date-released: "2026-10-02"
 license: MIT
 authors:

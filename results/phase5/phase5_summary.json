@@ -1,0 +1,166 @@
+{
+ "legacy": {
+  "HB": {
+   "method": "HB",
+   "primary_success": 69.0,
+   "primary_coll": 31.0,
+   "legacy_success": 100.0,
+   "legacy_coll": 22.5,
+   "legacy_dist": 29.237402205005374
+  },
+  "HBP": {
+   "method": "HBP",
+   "primary_success": 75.0,
+   "primary_coll": 26.5,
+   "legacy_success": 100.0,
+   "legacy_coll": 21.0,
+   "legacy_dist": 29.260833662510446
+  },
+  "DR-T": {
+   "method": "DR-T",
+   "primary_success": 72.5,
+   "primary_coll": 18.0,
+   "legacy_success": 100.0,
+   "legacy_coll": 17.0,
+   "legacy_dist": 30.72008727101711
+  },
+  "DR-SAFE": {
+   "method": "DR-SAFE",
+   "primary_success": 67.5,
+   "primary_coll": 23.0,
+   "legacy_success": 93.0,
+   "legacy_coll": 18.0,
+   "legacy_dist": 30.841767286394965
+  }
+ },
+ "hybrid": {
+  "aco_dwa": {
+   "success": 95.5,
+   "coll": 16.0,
+   "dist": 35.12950465343303,
+   "clr": 1.4881114477160304
+  },
+  "aco_dwa_hbp": {
+   "success": 95.5,
+   "coll": 20.0,
+   "dist": 35.46400212811609,
+   "clr": 1.487561744853723
+  },
+  "aco_dwa_drt": {
+   "success": 92.0,
+   "coll": 14.499999999999998,
+   "dist": 35.453585822512665,
+   "clr": 1.5425022081871347
+  }
+ },
+ "tests": [
+  {
+   "name": "legacy DR-T vs HB",
+   "outcome": "success",
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "p": 1.0,
+   "holm": 1.0
+  },
+  {
+   "name": "legacy DR-T vs HB",
+   "outcome": "any_collision",
+   "diff": -5.5,
+   "lo": -12.0,
+   "hi": 1.5,
+   "p": 0.15240777196147803,
+   "holm": 0.7620388598073902
+  },
+  {
+   "name": "legacy DR-T vs HBP",
+   "outcome": "success",
+   "diff": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "p": 1.0,
+   "holm": 1.0
+  },
+  {
+   "name": "legacy DR-T vs HBP",
+   "outcome": "any_collision",
+   "diff": -4.0,
+   "lo": -10.5,
+   "hi": 3.0,
+   "p": 0.31232680747326935,
+   "holm": 1.0
+  },
+  {
+   "name": "legacy DR-T vs DR-SAFE",
+   "outcome": "success",
+   "diff": 7.000000000000001,
+   "lo": 3.5000000000000004,
+   "hi": 10.5,
+   "p": 0.0001220703125,
+   "holm": 0.000732421875
+  },
+  {
+   "name": "legacy DR-T vs DR-SAFE",
+   "outcome": "any_collision",
+   "diff": -1.0,
+   "lo": -5.5,
+   "hi": 3.5000000000000004,
+   "p": 0.8238029479980469,
+   "holm": 1.0
+  },
+  {
+   "name": "aco_dwa_hbp vs ACO+DWA",
+   "outcome": "success",
+   "diff": 0.0,
+   "lo": -4.0,
+   "hi": 4.0,
+   "p": 1.0,
+   "holm": 1.0
+  },
+  {
+   "name": "aco_dwa_hbp vs ACO+DWA",
+   "outcome": "any_collision",
+   "diff": 4.0,
+   "lo": -1.5,
+   "hi": 9.5,
+   "p": 0.21532714972272515,
+   "holm": 0.9646776108719308
+  },
+  {
+   "name": "aco_dwa_drt vs ACO+DWA",
+   "outcome": "success",
+   "diff": -3.5000000000000004,
+   "lo": -8.0,
+   "hi": 1.0,
+   "p": 0.18924713134765625,
+   "holm": 0.9646776108719308
+  },
+  {
+   "name": "aco_dwa_drt vs ACO+DWA",
+   "outcome": "any_collision",
+   "diff": -1.5,
+   "lo": -7.5,
+   "hi": 4.5,
+   "p": 0.7492586247608418,
+   "holm": 1.0
+  },
+  {
+   "name": "aco_dwa_drt vs aco_dwa_hbp",
+   "outcome": "success",
+   "diff": -3.5000000000000004,
+   "lo": -8.0,
+   "hi": 1.0,
+   "p": 0.18924713134765625,
+   "holm": 0.9646776108719308
+  },
+  {
+   "name": "aco_dwa_drt vs aco_dwa_hbp",
+   "outcome": "any_collision",
+   "diff": -5.5,
+   "lo": -12.5,
+   "hi": 1.5,
+   "p": 0.16077960181198847,
+   "holm": 0.9646776108719308
+  }
+ ]
+}

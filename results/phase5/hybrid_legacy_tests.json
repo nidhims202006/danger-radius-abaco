@@ -1,0 +1,74 @@
+[
+ {
+  "name": "ACO(DR-T)+DWA vs ACO+DWA",
+  "outcome": "success",
+  "diff": 0.5,
+  "lo": 0.0,
+  "hi": 1.5,
+  "p": 1.0,
+  "holm": 1.0
+ },
+ {
+  "name": "ACO(DR-T)+DWA vs ACO+DWA",
+  "outcome": "any_collision",
+  "diff": -7.5,
+  "lo": -12.5,
+  "hi": -2.5,
+  "p": 0.005924612283706665,
+  "holm": 0.04739689826965332
+ },
+ {
+  "name": "ACO(HBP)+DWA vs ACO+DWA",
+  "outcome": "success",
+  "diff": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "p": 1.0,
+  "holm": 1.0
+ },
+ {
+  "name": "ACO(HBP)+DWA vs ACO+DWA",
+  "outcome": "any_collision",
+  "diff": -1.0,
+  "lo": -5.5,
+  "hi": 3.5000000000000004,
+  "p": 0.8318119049072266,
+  "holm": 1.0
+ },
+ {
+  "name": "ACO(DR-T)+DWA vs ACO(HBP)+DWA",
+  "outcome": "success",
+  "diff": 0.5,
+  "lo": 0.0,
+  "hi": 1.5,
+  "p": 1.0,
+  "holm": 1.0
+ },
+ {
+  "name": "ACO(DR-T)+DWA vs ACO(HBP)+DWA",
+  "outcome": "any_collision",
+  "diff": -6.5,
+  "lo": -11.5,
+  "hi": -1.5,
+  "p": 0.01463329792022705,
+  "holm": 0.10243308544158936
+ },
+ {
+  "name": "DR-T(ACO) vs ACO+DWA, both legacy",
+  "outcome": "success",
+  "diff": 0.5,
+  "lo": 0.0,
+  "hi": 1.5,
+  "p": 1.0,
+  "holm": 1.0
+ },
+ {
+  "name": "DR-T(ACO) vs ACO+DWA, both legacy",
+  "outcome": "any_collision",
+  "diff": -2.5,
+  "lo": -9.0,
+  "hi": 4.0,
+  "p": 0.5600646295802106,
+  "holm": 1.0
+ }
+]

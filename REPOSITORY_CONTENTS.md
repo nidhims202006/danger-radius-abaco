@@ -20,6 +20,7 @@ The manuscript is a separate deliverable and is intentionally absent from this r
 - `CITATION.cff` — citation metadata and repository/DOI identifiers.
 - `.zenodo.json` — Zenodo metadata for the archived software release.
 - `.gitignore` — repository hygiene rules.
+- `docs/PHASE5_POST_HOC.md` — post hoc legacy-pheromone and ACO+DWA analyses (`experiments/phase5_*.py`, `results/phase5/`).
 - `docs/DATA_AVAILABILITY.md` — public GitHub and Zenodo availability statement.
 - `docs/C6_SHA256_MANIFEST.json` — authoritative SHA-256 integrity manifest for package contents other than the manifest itself.
 - `docs/DLITE_SOURCE_MANIFEST.json` — D* Lite implementation/source-package manifest.

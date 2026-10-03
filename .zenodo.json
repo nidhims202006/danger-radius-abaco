@@ -3,7 +3,7 @@
   "description": "Simulation code, analysis scripts, stored results and reproducibility materials accompanying the manuscript 'Time-Aligned Danger-Radius Cost Weighting for Dynamic Obstacles in ABACO Grid Path Planning'.",
   "upload_type": "software",
   "license": "MIT",
-  "version": "v35-eswa-review-item4-public-repository-and-data-availability",
+  "version": "v36-eswa-post-hoc-legacy-pheromone-and-aco-dwa-hybrids",
   "creators": [
     {
       "name": "Nidhi, M S",

@@ -1,0 +1,56 @@
+[
+ {
+  "comparator": "ACO+DWA",
+  "outcome": "success",
+  "diff": 4.5,
+  "lo": 2.0,
+  "hi": 7.5,
+  "p": 0.00390625,
+  "holm": 0.01953125
+ },
+ {
+  "comparator": "ACO+DWA",
+  "outcome": "any_collision",
+  "diff": 1.0,
+  "lo": -5.0,
+  "hi": 7.012500000000046,
+  "p": 0.8746293123804207,
+  "holm": 1.0
+ },
+ {
+  "comparator": "D* Lite + DWA",
+  "outcome": "success",
+  "diff": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "p": 1.0,
+  "holm": 1.0
+ },
+ {
+  "comparator": "D* Lite + DWA",
+  "outcome": "any_collision",
+  "diff": -5.5,
+  "lo": -12.5,
+  "hi": 1.5,
+  "p": 0.16077960181198847,
+  "holm": 0.6431184072479539
+ },
+ {
+  "comparator": "Space-time A*",
+  "outcome": "success",
+  "diff": 12.0,
+  "lo": 7.5,
+  "hi": 16.5,
+  "p": 1.1920928955078125e-07,
+  "holm": 7.152557373046875e-07
+ },
+ {
+  "comparator": "Space-time A*",
+  "outcome": "any_collision",
+  "diff": -4.5,
+  "lo": -11.5,
+  "hi": 2.0,
+  "p": 0.2624375357110438,
+  "holm": 0.7873126071331313
+ }
+]

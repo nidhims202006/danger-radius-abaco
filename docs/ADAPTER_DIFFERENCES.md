@@ -25,3 +25,8 @@ Summary: success changed by at most 1.5 points; collisions changed by +6.5 (HBP)
 
 ## Pseudocode
 Manuscript Section 4.2 (Algorithm 2: time-aligned transition step, with complexity) and Section 5.11 (Algorithm 3: closed-loop protocol) give the pseudocode for these implementations.
+
+## Legacy-pheromone rerun (post hoc; manuscript Tables 4A and 4B; release v36)
+Item (iii) above (construction limit and pheromone deposit) was measured by restoring the fixed-grid age-based Q deposit and the 500-step limit
+(`experiments/phase5_adapters.py`, `ADAPTER=legacy`). The age-based deposit, not the step limit, accounts for the change in closed-loop success.
+Protocol, files, gates and caveats: `docs/PHASE5_POST_HOC.md`.

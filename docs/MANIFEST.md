@@ -70,3 +70,9 @@ The archive's historical D* Lite source was not recovered; `experiments/phase3_a
 - `docs/ORCA_MPC_RERUN_RECONCILIATION_v30.md` records the updated manuscript rerun values and the provenance status of the archived superseded raw ORCA/MPC run.
 - `results/phase4_orca_mpc_manuscript_v30.json` records the updated Table 29 descriptive values without fabricating raw paired outcomes.
 - `experiments/generate_fresh_audit_scenarios.py` and `results/fresh_audit_scenarios/` make the 40 held-out scenarios 204–243 reproducible as a separate audit block.
+
+## v36 post hoc additions
+- `docs/PHASE5_POST_HOC.md`: protocol, files, reproduction commands and limits of the post hoc legacy-pheromone and ACO+DWA analyses.
+- `experiments/phase5_adapters.py`, `phase5_runner.py`, `phase5_run.py`, `analyze_phase5.py`, `verify_phase5_gate.py`, `check_phase5_numbers.py`, `run_phase5.sh`.
+- `results/phase5/`: per-run outcomes (`*.jsonl`) and summaries (`*.json`) for manuscript Tables 4A and 4B.
+- `experiments/run_phase2_step3_v2_confirmation.py`: hard-coded parameters corrected to the confirmed values (see `docs/PHASE5_POST_HOC.md`).

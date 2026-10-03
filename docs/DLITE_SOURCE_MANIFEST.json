@@ -13,24 +13,24 @@
   },
   "files": {
     "CITATION.cff": {
-      "sha256": "9b69fe650b4eab7874aa62b87b1d72067491ec66f63bfd12c83d2472b58f1431",
-      "bytes": 1283
+      "sha256": "d9fc69329f4d547614f48cf4fa555fee690a6e999ac6f112f669aee140324759",
+      "bytes": 1309
     },
     "LICENSE": {
       "sha256": "8a792edd6362618fddcda9d404d04466948e0def92e2fc617d31a6597c7a8cbb",
       "bytes": 1102
     },
     "README.md": {
-      "sha256": "c2801146bb7a6f94e42c75fc38b9f736126146e80b1b0211d0dfe8c464284511",
-      "bytes": 7787
+      "sha256": "a4f33da35c006ec4090b7c69159ea606384057361e1d38dabbe0d53ddb1a84cf",
+      "bytes": 5839
     },
     "REPOSITORY_CONTENTS.md": {
-      "sha256": "6db2d69d89baa00345eb84b22cbfbc4a892e0820c8d2c43fb5ca2a25ea701944",
-      "bytes": 2363
+      "sha256": "97ecf502f4e986d77dbdc5014a4e124a4805c61f973304dcfa2d70c0d9acecbb",
+      "bytes": 2276
     },
     "VERSION": {
-      "sha256": "6125dc21f74ecca096c70f41fb501fc0897b0a669f23a292f46df92034ce7441",
-      "bytes": 62
+      "sha256": "1af435e0c51e9de534e5ee7e9d8a74ca5df2d29050845d2a0dca8fdb42caafd8",
+      "bytes": 55
     },
     "abaco/ABACO_baseline.py": {
       "sha256": "8623e97ff6c08f61e0af52241d8f8f3f43cb03f383e67f9480250d644b1ff3d6",
@@ -69,8 +69,8 @@
       "bytes": 6541
     },
     "docs/ADAPTER_DIFFERENCES.md": {
-      "sha256": "dafef71a9d6d3f03a00088ce5a9d8aa0be9005838041417a1a5c62b1535f8804",
-      "bytes": 2634
+      "sha256": "1e431bcdac51a8fcbb59674d03eb086abb2a979b4239c5b2c1b27de715a611d0",
+      "bytes": 3066
     },
     "docs/DSTAR_LITE_REPLACEMENT.md": {
       "sha256": "b5c0532cc97ef1cfbf9f18ffd228ba3dc9c9ff487f225f81923c411ef133233b",
@@ -89,24 +89,24 @@
       "bytes": 11313
     },
     "docs/MANIFEST.md": {
-      "sha256": "41017eb5663f8549745b44278cd0d757b0c0ec7c3eaaa7c464e3d194da2118c1",
-      "bytes": 8571
+      "sha256": "2ed9e95a5ecfebe61fbf0cd1d49629696d7042e81f03d17bd91597293a324d6f",
+      "bytes": 9145
     },
     "docs/METHOD_APF_DISTINCTION.md": {
       "sha256": "3c684c370c7d7600d7841117ce4dffe72cb1867bb1882ff404c3ff8240b93ea0",
       "bytes": 1345
     },
     "docs/ORCA_MPC_SHA256_MANIFEST.json": {
-      "sha256": "89015e535f8d3693ce47477241b107b1451feed91a24f3314905416cc016b59e",
-      "bytes": 2469
+      "sha256": "b07707226dda9fd2ed4118c847feccfac4c68575353252f75bc7d40e825acacb",
+      "bytes": 2327
     },
     "docs/PACKAGE_STATUS.md": {
-      "sha256": "12507dcf882dbaf31b55a86900155a2352be76fecc85f9c12e895f248da6b6b1",
-      "bytes": 9349
+      "sha256": "a584701abdff01132e21f3ac096c7c8428e0e16d70b528b8024d1775d20359d9",
+      "bytes": 4000
     },
     "docs/PAPER_POSITIONING.md": {
-      "sha256": "a56c11f9e22ca4071040f301a89d66fd7c07f9545351c0d05c03627e3efc3ee5",
-      "bytes": 3190
+      "sha256": "3d313dbe812667cdadfe0141484a3ccad33dd67bc911d6118a128a012910c59a",
+      "bytes": 3132
     },
     "docs/R5P5_RESULT_SHA256.txt": {
       "sha256": "e7b6d9ab31419778e627da699bc61d2e0e209d7dac1b7254a39fc67292873348",
@@ -437,8 +437,8 @@
       "bytes": 1323
     },
     "experiments/run_phase2_step3_v2_confirmation.py": {
-      "sha256": "c30a6e03cb77576b6e12c93fc51fead3693c07a0207ce72d7d8e8bab9b036835",
-      "bytes": 1982
+      "sha256": "48d6434fac7d68a73b7be4736c92ded1e0eeb776531574364cabb6b5590b8f46",
+      "bytes": 2246
     },
     "experiments/run_phase2_step3_v2_smoke.py": {
       "sha256": "911c5f40dc2a7ad75a4cf21ac48ab6f02ffae883c2b54c2930cb9a4ea7c229f6",

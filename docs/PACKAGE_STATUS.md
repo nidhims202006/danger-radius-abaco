@@ -1,123 +1,85 @@
 # Current package status
 
-Date: 2026-10-02
-Checkpoint: v35-eswa-review-item4-public-repository-and-data-availability
+**Release:** `v36-eswa-post-hoc-legacy-pheromone-and-aco-dwa-hybrids`  
+**Date:** 2026-10-03
 
+## Release state
 
-## Smoothness-claim closure (2026-10-02)
-- Closed the review items concerning unsupported closed-loop smoothness claims.
-- The manuscript now states explicitly that Table 7 is a post hoc five-seed closed-loop variance study and that its sharp-turn counts are descriptive only, not evidence for a closed-loop smoothness advantage.
-- Smoothness/path-quality comparisons are confined to the fixed-grid development and confirmation blocks, where sharp turns and path length were explicitly measured under the iteration-indexed protocol.
-- Added `docs/SMOOTHNESS_EVIDENCE_AUDIT.md` to record the evidence boundary and affected manuscript claims.
+The repository is the current ESWA reproducibility package corresponding to the supplied manuscript.
+The manuscript itself is intentionally maintained as a separate deliverable.
 
-## Deliverables
-- Manuscript: supplied separately.
-- Code/data archive: this package.
-- The reproducibility archive is publicly available through GitHub (https://github.com/nidhims202006/danger-radius-abaco.git) and Zenodo (DOI 10.5281/zenodo.23106834).
+Public release identifiers:
 
-## Current corrections
-- Restored the missing runner-facing `experiments/phase3_abaco.py` compatibility entry point.
-- Corrected the A3 script documentation to state 4,000 bootstrap replicates.
-- Added MIT LICENSE and CITATION.cff.
-- Updated VERSION and README.
-- Added an explicit A3 reproduction command and result pointer.
-- Removed the stale root-level SHA256 manifest; `docs/C6_SHA256_MANIFEST.json` is authoritative.
+- GitHub: https://github.com/nidhims202006/danger-radius-abaco.git
+- Zenodo DOI: 10.5281/zenodo.23106834
 
-## D* Lite note
-The restored `phase3_abaco.py` wraps the packaged `DStarLite` implementation and exposes the historical
-`FastDStarLite` runner API. It is a compatibility reconstruction because the standalone historical source was
-not present in the prior archive. In C6 the module was rebuilt (per-call expansion budget in `update_blocked` and `path`). A full check on scenarios 4-203
-reproduces 199 of 200 stored D* Lite + DWA runs exactly; scenario 189 differs in its collision flag (aggregate collisions
-22.5% stored vs 22.0% rerun; success 100% in both; see `results/dstar_compat_check/`). The earlier C4/C5 wrapper did not
-reproduce the stored outputs (6 of the first 13 scenarios matched, 6 hung) and that version is superseded. The module is a
-newly authored runner-compatible replacement, not source-level recovery; stored per-run results remain the reference.
+## v36 changes
 
-## Post-C4 executable consistency patch
-- Updated `experiments/benchmark_one_case.py` and `experiments/benchmark_scaling_memory_direct.py` to unpack the current three-value `abaco_plan()` return signature.
-- Smoke-tested HB, HBP, DR-T and DR-SAFE benchmark calls on a 12x12 / 3-dynamic-obstacle case; all returned a valid path.
-- `python -m compileall -q .` passes.
+- Added the post hoc phase-5 analyses (`docs/PHASE5_POST_HOC.md`): legacy-pheromone adapter rerun and ACO+DWA with a prediction-aware ACO stage.
+- Corrected the hard-coded parameters in `experiments/run_phase2_step3_v2_confirmation.py` to the confirmed values.
+- The Zenodo DOI above identifies release v35; a new Zenodo version (and DOI) is needed for v36 before the manuscript cites these analyses.
 
-## C6 D* Lite verification hardening (2026-10-02)
-- `experiments/check_dstar_compat.py` is now location-independent and defaults to the full 200-scenario check (IDs 4–203).
-- Full verification completed with 199/200 exact matches and 0 timeouts; scenario 189 remains the sole disclosed collision-flag mismatch.
-- Added `docs/DSTAR_LITE_REPRODUCIBILITY.md` with the exact command, scope, and verified result.
+## Evidence position
 
-## Post-C6 housekeeping (2026-10-02)
-- `CITATION.cff` now contains the citation metadata, public GitHub repository URL and Zenodo DOI 10.5281/zenodo.23106834.
-- Python bytecode caches (`__pycache__/`) removed from the archive, as `REPOSITORY_CONTENTS.md` already states they are excluded.
-- `docs/C6_SHA256_MANIFEST.json` entries for `CITATION.cff` and `docs/PACKAGE_STATUS.md` updated; all 280 entries re-verified.
+- DR-T is the primary design contribution.
+- DR-SAFE is a secondary hard-clearance-floor extension. Exact-estimate ablation did not detect an
+  incremental floor benefit, and the floor is not presented as a safety guarantee.
+- Closed-loop evidence uses a common world/observation clock, Kalman estimation, five-tick scheduled
+  replanning and execution-level collision checks.
+- The N=8 high-fidelity validation is continuous-kinematic simulation/interface evidence only.
+- The warehouse generator is included, but no full warehouse validation result is claimed.
 
-## Priority-7 repository refresh (2026-10-02)
-- Refreshed `VERSION` to `v65.5-c6-dstar-verified-item7`.
-- Refreshed README evidence/package documentation and repository contents.
-- Added Table 22 checking to `experiments/check_paper_numbers.py`, using stored Priority-13 and Step-6 summary outputs.
-- Table 22 is checked descriptively; no new inferential claims are introduced.
+## D* Lite reproducibility status
 
-## Priority-8 computational scaling and memory (2026-10-02)
-- Confirmed Section 5.12 and Tables 25–26 are present in the current manuscript.
-- Added `experiments/check_priority8_scaling.py` for an explicit manuscript-table check against stored scaling/RSS outputs.
-- Table 20: 30/30 runtime cells match the stored 3-dynamic-obstacle measurements within rounding tolerance.
-- Table 21: 30/30 RSS cells match the stored isolated measurements within rounding tolerance.
-- Existing 90-case scaling checker passes.
-- No manuscript numerical values changed in this item.
+The historical standalone `FastDStarLite` source was not recovered from the available archives.
+The package therefore contains a newly authored runner-compatible replacement in
+`experiments/phase3_abaco.py` / `baselines/dstar_lite_dwa/fast_dstar_lite.py`.
 
+Full validation on scenarios 4–203 produced 199/200 exact stored-run matches, zero timeouts, and one
+disclosed collision-flag mismatch (scenario 189). Stored success is 100.0% and replacement success is
+100.0%; stored any-collision is 22.5% and replacement any-collision is 22.0%.
 
-## Priority-9 APF distinction (2026-10-02)
+This is compatibility reconstruction, not recovery of the historical source. The stored per-run file
+remains the reference for the manuscript D* Lite + DWA results.
 
-The manuscript Method section explicitly distinguishes the APF baseline from DR-T mathematically: APF uses the quadratic shifted-reciprocal potential `0.5·η·(1/d − 1/D0)^2`, while DR-T uses the single reciprocal `K/(d+ε)` term truncated at `R`. The distinction is stated before Section 4.2 and is therefore part of the Method presentation. No manuscript numerical values or algorithmic code were changed for this priority. See `docs/METHOD_APF_DISTINCTION.md`.
+## Baseline-tuning boundary
 
+Equal-budget tuning utilities are included and the closed-loop protocol uses a common tuning-budget
+framework where reported. The historical fixed-grid development block retains an asymmetric tuning
+history: DR-SAFE received a broader formulation-specific search than HB, HBP and APF. No retroactive
+full fixed-grid equal-budget rebuild is claimed in this release. This limitation is stated in the manuscript
+and should not be converted into a stronger comparative claim.
 
-## Priority-11 tuning parity (2026-10-02)
-- The fixed-grid evidence was audited for hyperparameter parity. The common ABACO parameters alpha=1.0, beta=5.0 and rho=0.3 were fixed rather than tuned for any method.
-- DR-SAFE received a broader formulation-specific search over R, K and D_SAFE than HB, HBP and APF; the later radius extension included R=5.5 and 6.5.
-- The extension selected R=5.5 for D_SAFE=1.5, but the confirmation protocol had already frozen R=4.5, so the reported D_SAFE=1.5 confirmation block was not rerun at R=5.5.
-- No equal-budget rerun was performed in this priority. The manuscript now states this explicitly as a principal limitation on fixed-grid method-to-method comparisons.
-- See `docs/PRIORITY11_TUNING_PARITY.md`.
+## Validation boundary
 
+The package does not claim:
 
-## Priority-12 practical niche (2026-10-02)
-- The manuscript now states a specific intended use case rather than implying general planner superiority: an existing ACO-based grid planner that needs time-aligned obstacle costing while retaining its ACO/grid planning architecture.
-- The closed-loop results are retained as documented: DR-T 72.5% success and 18.0% any-collision; Space-time A* 88.0% success, 21.5% any-collision and about 0.020 s accumulated planning time per scenario; ACO+DWA 95.5% success and 16.0% any-collision.
-- The practical section explicitly says these measurements do not support replacing the tested alternatives; the niche is architectural reuse of an existing ACO/grid pipeline.
-- No numerical experiment was rerun for Priority 12. This item changes positioning and practical interpretation only.
-- See `docs/PRIORITY12_PRACTICAL_NICHE.md`.
+- physical-robot trials;
+- ROS/Gazebo validation;
+- a full warehouse-style execution study;
+- a safety guarantee.
 
+The held-out high-fidelity block (scenarios 204–211, N=8) is a simulation/interface stress test using
+bounded unicycle dynamics, noisy CV-Kalman state estimation, five-tick replanning and continuous
+swept-segment collision checks. The warehouse scenario generator is provided for future deployment-
+style evaluation but no warehouse result is reported.
 
-## Priority-13 practical significance (2026-10-02)
-- Added percentage practical-magnitude reporting to the manuscript: 7.6% lower mean path length and 24.1% fewer mean sharp turns for DR-SAFE D_SAFE=1.5 versus HBP in the randomized exact-estimate suite.
-- Restored a four-point practical-guidance list in the conclusion.
-- These are secondary descriptive fixed-grid measures; the tuning-parity limitation remains explicit.
-- No numerical experiment was rerun for Priority 13.
-- See `docs/PRIORITY13_PRACTICAL_SIGNIFICANCE.md`.
+## Verification and integrity
 
+- `docs/C6_SHA256_MANIFEST.json` is the authoritative package manifest, excluding itself.
+- `docs/DLITE_SOURCE_MANIFEST.json` records the D* Lite provenance and compatibility result.
+- `docs/ORCA_MPC_SHA256_MANIFEST.json` records the ORCA/MPC subset hashes.
+- Python caches and bytecode are excluded from the release.
+- `python -m compileall -q .` passes for the packaged Python sources.
 
-## Priority-14 multi-case scaling and traced memory (2026-10-02)
-- Revised Tables 25–26 to use the existing stored direct-planning matrix at 1, 3 and 5 dynamic obstacles: three deterministic cases per grid size.
-- Table 20 now reports median [IQR] planner computation time across those three cases.
-- Table 21 now reports median [IQR] peak `tracemalloc` Python allocations during the planner call, excluding the process RSS baseline but not capturing native/C-level allocations.
-- Added `experiments/aggregate_scaling_cases.py` and `experiments/check_priority14_scaling.py`.
-- No new numerical run was required; the underlying 90-case direct-planning matrix is unchanged.
-- See `docs/PRIORITY14_SCALING_MEDIAN_IQR.md`.
+## Reproduction entry points
 
+See `README.md` for installation and lightweight stored-result checks. The main protocol and evidence
+boundaries are documented in:
 
-## Priority-15 baseline coverage (2026-10-02)
-- The manuscript now explicitly distinguishes implemented matched-interface/time-explicit baselines from contextual Gong et al. (2022) literature.
-- ORCA and MPC are not numerically evaluated; this is stated as a limitation rather than silently omitted.
-- No numerical baseline result was invented or changed.
-- See `docs/PRIORITY15_BASELINE_COVERAGE.md`.
-
-## Priority-18 ESWA literature update (2026-10-02)
-- Added two recent, directly relevant Expert Systems with Applications references: Li et al. (2024) on adaptive-dynamic-programming mobile-robot path planning and Zhang et al. (2026) on hierarchical deep-reinforcement-learning path planning.
-- Added corresponding citations in the dynamic-obstacle related-work discussion.
-- Bibliographic metadata was checked against ScienceDirect publisher records.
-- No numerical result, table value, algorithm, or baseline result was changed.
-- See `docs/PRIORITY18_ESWA_LITERATURE_UPDATE.md`.
-
-
-## Priority-19 archive tidy-up (2026-10-02)
-- Moved superseded v22/v65 planning and freeze records to `docs/archive/legacy/` so the active documentation namespace contains current submission records.
-- Retained historical numerical outputs needed for provenance; no accepted result or source module was removed.
-- Confirmed Python caches/bytecode are absent.
-- Refreshed package metadata and the authoritative SHA-256 manifest for the current ESWA reproducibility release.
-- No numerical, algorithmic, or manuscript-result changes were made.
-- See `docs/PRIORITY19_ARCHIVE_TIDY.md`.
+- `docs/EVAL_PROTOCOL_v2.md`
+- `docs/RUN_ORDER.md`
+- `docs/FLOOR_EVIDENCE_BOUNDARY.md`
+- `docs/HIGH_FIDELITY_VALIDATION.md`
+- `docs/DSTAR_LITE_REPRODUCIBILITY.md`
+- `docs/PAPER_POSITIONING.md`
