@@ -1,0 +1,11 @@
+{
+  "protocol": "continuous-cost replication of fixed-grid exact-estimate dev and confirmation blocks; arms SOFT(DR-T), TA, TB; R=4.5,K=2.0 not retuned; declared analysis: start-excluded collisions, sharp turns, path length vs HB and HBP, Holm over 12 per outcome (3 arms x 2 refs x 2 blocks); internally fixed, not externally preregistered",
+  "frozen_utc": "2026-10-03T18:15:28.748667+00:00",
+  "code_sha256": {
+    "continuous_cost_run.py": "38443df39b4247c5ed395e54d2f31234ce1f6fc3dbd8d41cb74b63f02d13920d",
+    "drsafe_lib.py": "28518ac554f65a9694346b00328ea2d7714c7078af55ea98d238e5918d1cc7d1",
+    "../danger_radius/ABACO_safety_pred_continuous_v2.py": "f8f8162d3ba452885f18f6ae6e3b7d23d4e2ad1441938fb1445361a70f9224dc",
+    "../abaco/ABACO_baseline.py": "8623e97ff6c08f61e0af52241d8f8f3f43cb03f383e67f9480250d644b1ff3d6",
+    "../abaco/exec_aligned_metrics.py": "fbe5773ad79dc693f7ace7fd781caee4cb43475839c56151d83ae6f1e1f57062"
+  }
+}
