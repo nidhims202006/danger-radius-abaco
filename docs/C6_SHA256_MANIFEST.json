@@ -1,8 +1,13 @@
 {
   "package": "Danger-Radius_ESWA_v36",
   "checkpoint": "final ESWA reproducibility release",
-  "file_count": 322,
+  "file_count": 323,
   "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "de1293e3edf0e910e032c54175d5d817f4717a8f18aa5db9e6113f198d2cd870",
+      "bytes": 279
+    },
     {
       "path": ".gitignore",
       "sha256": "14ddf52f92934647304fab1236cd72328507393a99212e85e43fdbb87ed9b3ce",
