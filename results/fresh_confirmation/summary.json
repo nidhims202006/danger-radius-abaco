@@ -1,0 +1,1030 @@
+{
+ "n": 200,
+ "summary": [
+  {
+   "label": "DR-T (age-based deposit)",
+   "success": 100.0,
+   "any_collision": 16.5,
+   "mean_path": 30.877955236661148,
+   "mean_plan_s": 0.6223174191050203
+  },
+  {
+   "label": "HB (age-based)",
+   "success": 100.0,
+   "any_collision": 25.5,
+   "mean_path": 29.25405696721381,
+   "mean_plan_s": 0.6444089695349965
+  },
+  {
+   "label": "HBP (age-based)",
+   "success": 100.0,
+   "any_collision": 22.0,
+   "mean_path": 29.3038488144121,
+   "mean_plan_s": 0.6427921658200063
+  },
+  {
+   "label": "DR-SAFE (age-based)",
+   "success": 95.0,
+   "any_collision": 16.5,
+   "mean_path": 31.86396028729503,
+   "mean_plan_s": 1.0250746860850206
+  },
+  {
+   "label": "DR-T (flat deposit)",
+   "success": 72.0,
+   "any_collision": 18.5,
+   "mean_path": 38.57394549433088,
+   "mean_plan_s": 0.8626311993249999
+  },
+  {
+   "label": "HB (flat)",
+   "success": 73.0,
+   "any_collision": 26.0,
+   "mean_path": 38.13626042831914,
+   "mean_plan_s": 1.0418432493650067
+  },
+  {
+   "label": "HBP (flat)",
+   "success": 75.5,
+   "any_collision": 27.500000000000004,
+   "mean_path": 37.82398120770556,
+   "mean_plan_s": 1.0249661308750047
+  },
+  {
+   "label": "DR-SAFE (flat)",
+   "success": 63.5,
+   "any_collision": 18.5,
+   "mean_path": 37.40272183069001,
+   "mean_plan_s": 1.2066734403100048
+  },
+  {
+   "label": "Space-time A*",
+   "success": 87.5,
+   "any_collision": 18.0,
+   "mean_path": 25.607244558542494,
+   "mean_plan_s": 0.014297691744989151
+  },
+  {
+   "label": "SIPP-style",
+   "success": 86.0,
+   "any_collision": 20.0,
+   "mean_path": 25.572244558542494,
+   "mean_plan_s": 0.009877223075002349
+  },
+  {
+   "label": "D* Lite + DWA",
+   "success": 100.0,
+   "any_collision": 21.5,
+   "mean_path": 28.66111324206153,
+   "mean_plan_s": 0.10690577784498771
+  },
+  {
+   "label": "ACO+DWA",
+   "success": 95.5,
+   "any_collision": 22.5,
+   "mean_path": 35.156870093760126,
+   "mean_plan_s": 1.77962962075
+  },
+  {
+   "label": "ORCA",
+   "success": 100.0,
+   "any_collision": 8.0,
+   "mean_path": 28.916727240261398,
+   "mean_plan_s": 0.0026009958700063864
+  },
+  {
+   "label": "MPC",
+   "success": 100.0,
+   "any_collision": 3.0,
+   "mean_path": 29.041458120915586,
+   "mean_plan_s": 0.026064560300015957
+  }
+ ],
+ "primary_family": [
+  {
+   "comparator": "HB (age-based)",
+   "outcome": "success",
+   "drt_only": 0,
+   "comp_only": 0,
+   "diff_pp": 0.0,
+   "p": 1.0,
+   "holm_p": 1.0
+  },
+  {
+   "comparator": "HB (age-based)",
+   "outcome": "any_collision",
+   "drt_only": 14,
+   "comp_only": 32,
+   "diff_pp": -9.0,
+   "p": 0.011351591436778108,
+   "holm_p": 0.12486750580455919
+  },
+  {
+   "comparator": "HBP (age-based)",
+   "outcome": "success",
+   "drt_only": 0,
+   "comp_only": 0,
+   "diff_pp": 0.0,
+   "p": 1.0,
+   "holm_p": 1.0
+  },
+  {
+   "comparator": "HBP (age-based)",
+   "outcome": "any_collision",
+   "drt_only": 17,
+   "comp_only": 28,
+   "diff_pp": -5.499999999999999,
+   "p": 0.1351564508456704,
+   "holm_p": 1.0
+  },
+  {
+   "comparator": "Space-time A*",
+   "outcome": "success",
+   "drt_only": 25,
+   "comp_only": 0,
+   "diff_pp": 12.5,
+   "p": 5.960464477539063e-08,
+   "holm_p": 8.940696716308594e-07
+  },
+  {
+   "comparator": "Space-time A*",
+   "outcome": "any_collision",
+   "drt_only": 22,
+   "comp_only": 25,
+   "diff_pp": -1.4999999999999987,
+   "p": 0.7708669945730263,
+   "holm_p": 1.0
+  },
+  {
+   "comparator": "SIPP-style",
+   "outcome": "success",
+   "drt_only": 28,
+   "comp_only": 0,
+   "diff_pp": 14.000000000000002,
+   "p": 7.450580596923828e-09,
+   "holm_p": 1.1920928955078125e-07
+  },
+  {
+   "comparator": "SIPP-style",
+   "outcome": "any_collision",
+   "drt_only": 22,
+   "comp_only": 29,
+   "diff_pp": -3.5000000000000004,
+   "p": 0.4010619910279374,
+   "holm_p": 1.0
+  },
+  {
+   "comparator": "D* Lite + DWA",
+   "outcome": "success",
+   "drt_only": 0,
+   "comp_only": 0,
+   "diff_pp": 0.0,
+   "p": 1.0,
+   "holm_p": 1.0
+  },
+  {
+   "comparator": "D* Lite + DWA",
+   "outcome": "any_collision",
+   "drt_only": 20,
+   "comp_only": 30,
+   "diff_pp": -4.999999999999999,
+   "p": 0.20263875106454066,
+   "holm_p": 1.0
+  },
+  {
+   "comparator": "ACO+DWA",
+   "outcome": "success",
+   "drt_only": 9,
+   "comp_only": 0,
+   "diff_pp": 4.5000000000000036,
+   "p": 0.00390625,
+   "holm_p": 0.046875
+  },
+  {
+   "comparator": "ACO+DWA",
+   "outcome": "any_collision",
+   "drt_only": 19,
+   "comp_only": 31,
+   "diff_pp": -6.0,
+   "p": 0.11892045255943628,
+   "holm_p": 1.0
+  },
+  {
+   "comparator": "ORCA",
+   "outcome": "success",
+   "drt_only": 0,
+   "comp_only": 0,
+   "diff_pp": 0.0,
+   "p": 1.0,
+   "holm_p": 1.0
+  },
+  {
+   "comparator": "ORCA",
+   "outcome": "any_collision",
+   "drt_only": 23,
+   "comp_only": 6,
+   "diff_pp": 8.5,
+   "p": 0.002315700054168701,
+   "holm_p": 0.030104100704193115
+  },
+  {
+   "comparator": "MPC",
+   "outcome": "success",
+   "drt_only": 0,
+   "comp_only": 0,
+   "diff_pp": 0.0,
+   "p": 1.0,
+   "holm_p": 1.0
+  },
+  {
+   "comparator": "MPC",
+   "outcome": "any_collision",
+   "drt_only": 30,
+   "comp_only": 3,
+   "diff_pp": 13.5,
+   "p": 1.4011748135089874e-06,
+   "holm_p": 1.9616447389125824e-05
+  }
+ ],
+ "secondary": [
+  {
+   "comparator": "DR-SAFE (age-based)",
+   "outcome": "success",
+   "drt_only": 10,
+   "comp_only": 0,
+   "diff_pp": 5.000000000000004,
+   "p": 0.001953125,
+   "holm_p": 0.0078125
+  },
+  {
+   "comparator": "DR-SAFE (age-based)",
+   "outcome": "any_collision",
+   "drt_only": 8,
+   "comp_only": 8,
+   "diff_pp": 0.0,
+   "p": 1.0,
+   "holm_p": 1.0
+  },
+  {
+   "comparator": "flat-deposit: DR-T vs HB",
+   "outcome": "success",
+   "drt_only": 19,
+   "comp_only": 21,
+   "diff_pp": -1.0000000000000009,
+   "p": 0.8746293123804207,
+   "holm_p": 1.0
+  },
+  {
+   "comparator": "flat-deposit: DR-T vs HB",
+   "outcome": "any_collision",
+   "drt_only": 21,
+   "comp_only": 36,
+   "diff_pp": -7.500000000000001,
+   "p": 0.06273668035582848,
+   "holm_p": 0.18821004106748546
+  }
+ ],
+ "subgroups": {
+  "motion": {
+   "constant": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 18.0,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 24.0,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 22.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 20.0,
+     "success": 80.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 28.000000000000004,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 20.0,
+     "success": 92.0
+    },
+    "ORCA": {
+     "any_collision": 10.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 0.0,
+     "success": 100.0
+    }
+   },
+   "curved": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 18.0,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 26.0,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 22.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 18.0,
+     "success": 90.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 22.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 22.0,
+     "success": 96.0
+    },
+    "ORCA": {
+     "any_collision": 14.000000000000002,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 4.0,
+     "success": 100.0
+    }
+   },
+   "random_walk": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 16.0,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 28.000000000000004,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 22.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 16.0,
+     "success": 84.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 22.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 24.0,
+     "success": 94.0
+    },
+    "ORCA": {
+     "any_collision": 8.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 4.0,
+     "success": 100.0
+    }
+   },
+   "stop_go": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 14.000000000000002,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 24.0,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 22.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 18.0,
+     "success": 96.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 14.000000000000002,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 24.0,
+     "success": 100.0
+    },
+    "ORCA": {
+     "any_collision": 0.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 4.0,
+     "success": 100.0
+    }
+   }
+  },
+  "dyn_count": {
+   "1": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 8.0,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 8.0,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 6.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 4.0,
+     "success": 92.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 10.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 6.0,
+     "success": 94.0
+    },
+    "ORCA": {
+     "any_collision": 4.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 0.0,
+     "success": 100.0
+    }
+   },
+   "3": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 14.000000000000002,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 22.0,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 22.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 20.0,
+     "success": 86.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 14.000000000000002,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 10.0,
+     "success": 94.0
+    },
+    "ORCA": {
+     "any_collision": 2.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 4.0,
+     "success": 100.0
+    }
+   },
+   "5": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 14.000000000000002,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 28.000000000000004,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 28.000000000000004,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 20.0,
+     "success": 90.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 26.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 34.0,
+     "success": 98.0
+    },
+    "ORCA": {
+     "any_collision": 8.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 4.0,
+     "success": 100.0
+    }
+   },
+   "8": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 30.0,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 44.0,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 32.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 28.000000000000004,
+     "success": 82.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 36.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 40.0,
+     "success": 96.0
+    },
+    "ORCA": {
+     "any_collision": 18.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 4.0,
+     "success": 100.0
+    }
+   }
+  },
+  "noise": {
+   "0.0": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 24.0,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 28.000000000000004,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 30.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 26.0,
+     "success": 98.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 18.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 24.0,
+     "success": 98.0
+    },
+    "ORCA": {
+     "any_collision": 8.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 2.0,
+     "success": 100.0
+    }
+   },
+   "0.15": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 14.000000000000002,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 28.000000000000004,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 14.000000000000002,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 16.0,
+     "success": 88.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 24.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 24.0,
+     "success": 98.0
+    },
+    "ORCA": {
+     "any_collision": 2.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 0.0,
+     "success": 100.0
+    }
+   },
+   "0.35": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 10.0,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 22.0,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 20.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 14.000000000000002,
+     "success": 84.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 26.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 20.0,
+     "success": 92.0
+    },
+    "ORCA": {
+     "any_collision": 8.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 4.0,
+     "success": 100.0
+    }
+   },
+   "0.7": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 18.0,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 24.0,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 24.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 16.0,
+     "success": 80.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 18.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 22.0,
+     "success": 94.0
+    },
+    "ORCA": {
+     "any_collision": 14.000000000000002,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 6.0,
+     "success": 100.0
+    }
+   }
+  },
+  "workspace": {
+   "12x12": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 22.0,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 32.0,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 32.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 26.0,
+     "success": 94.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 24.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 32.0,
+     "success": 100.0
+    },
+    "ORCA": {
+     "any_collision": 12.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 6.0,
+     "success": 100.0
+    }
+   },
+   "18x18": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 18.0,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 18.0,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 24.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 16.0,
+     "success": 90.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 20.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 22.0,
+     "success": 100.0
+    },
+    "ORCA": {
+     "any_collision": 8.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 4.0,
+     "success": 100.0
+    }
+   },
+   "25x25": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 10.0,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 26.0,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 14.000000000000002,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 16.0,
+     "success": 90.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 22.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 20.0,
+     "success": 100.0
+    },
+    "ORCA": {
+     "any_collision": 8.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 2.0,
+     "success": 100.0
+    }
+   },
+   "30x24": {
+    "n": 50,
+    "DR-T (age-based deposit)": {
+     "any_collision": 16.0,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 26.0,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 18.0,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 14.000000000000002,
+     "success": 76.0
+    },
+    "D* Lite + DWA": {
+     "any_collision": 20.0,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 16.0,
+     "success": 82.0
+    },
+    "ORCA": {
+     "any_collision": 4.0,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 0.0,
+     "success": 100.0
+    }
+   }
+  },
+  "density": {
+   "0.04": {
+    "n": 67,
+    "DR-T (age-based deposit)": {
+     "any_collision": 16.417910447761194,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 19.402985074626866,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 17.91044776119403,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 14.925373134328357,
+     "success": 92.53731343283582
+    },
+    "D* Lite + DWA": {
+     "any_collision": 17.91044776119403,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 20.8955223880597,
+     "success": 95.52238805970148
+    },
+    "ORCA": {
+     "any_collision": 8.955223880597014,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 2.9850746268656714,
+     "success": 100.0
+    }
+   },
+   "0.08": {
+    "n": 67,
+    "DR-T (age-based deposit)": {
+     "any_collision": 14.925373134328357,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 26.865671641791046,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 25.37313432835821,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 22.388059701492537,
+     "success": 83.5820895522388
+    },
+    "D* Lite + DWA": {
+     "any_collision": 17.91044776119403,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 19.402985074626866,
+     "success": 97.01492537313433
+    },
+    "ORCA": {
+     "any_collision": 8.955223880597014,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 4.477611940298507,
+     "success": 100.0
+    }
+   },
+   "0.12": {
+    "n": 66,
+    "DR-T (age-based deposit)": {
+     "any_collision": 18.181818181818183,
+     "success": 100.0
+    },
+    "HB (age-based)": {
+     "any_collision": 30.303030303030305,
+     "success": 100.0
+    },
+    "HBP (age-based)": {
+     "any_collision": 22.727272727272727,
+     "success": 100.0
+    },
+    "Space-time A*": {
+     "any_collision": 16.666666666666664,
+     "success": 86.36363636363636
+    },
+    "D* Lite + DWA": {
+     "any_collision": 28.78787878787879,
+     "success": 100.0
+    },
+    "ACO+DWA": {
+     "any_collision": 27.27272727272727,
+     "success": 93.93939393939394
+    },
+    "ORCA": {
+     "any_collision": 6.0606060606060606,
+     "success": 100.0
+    },
+    "MPC": {
+     "any_collision": 1.5151515151515151,
+     "success": 100.0
+    }
+   }
+  }
+ },
+ "drt_collision_motion_x_count": {
+  "constant|1": [
+   11,
+   9.090909090909092
+  ],
+  "constant|3": [
+   15,
+   13.333333333333334
+  ],
+  "constant|5": [
+   14,
+   21.428571428571427
+  ],
+  "constant|8": [
+   10,
+   30.0
+  ],
+  "curved|1": [
+   14,
+   0.0
+  ],
+  "curved|3": [
+   12,
+   33.33333333333333
+  ],
+  "curved|5": [
+   9,
+   11.11111111111111
+  ],
+  "curved|8": [
+   15,
+   26.666666666666668
+  ],
+  "random_walk|1": [
+   17,
+   17.647058823529413
+  ],
+  "random_walk|3": [
+   10,
+   0.0
+  ],
+  "random_walk|5": [
+   10,
+   20.0
+  ],
+  "random_walk|8": [
+   13,
+   23.076923076923077
+  ],
+  "stop_go|1": [
+   8,
+   0.0
+  ],
+  "stop_go|3": [
+   13,
+   7.6923076923076925
+  ],
+  "stop_go|5": [
+   17,
+   5.88235294117647
+  ],
+  "stop_go|8": [
+   12,
+   41.66666666666667
+  ]
+ }
+}

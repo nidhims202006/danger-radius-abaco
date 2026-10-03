@@ -1,0 +1,47 @@
+{
+  "count": 200,
+  "scenario_ids": [
+    1000,
+    1199
+  ],
+  "base_seed": 930000,
+  "generator": "experiments/fresh_confirmation_generator.py",
+  "sha256": "b81000b4dc7a6bda455cdc6efc57d4eab4ee6d9b61d724559fec5b5a9bc4f0c3",
+  "motion_x_count_cell_range": [
+    8,
+    17
+  ],
+  "motion_x_count_cells": 16,
+  "marginals": {
+    "workspace": {
+      "12x12": 50,
+      "18x18": 50,
+      "25x25": 50,
+      "30x24": 50
+    },
+    "density": {
+      "0.08": 67,
+      "0.12": 66,
+      "0.04": 67
+    },
+    "dyn_count": {
+      "1": 50,
+      "5": 50,
+      "8": 50,
+      "3": 50
+    },
+    "motion": {
+      "curved": 50,
+      "random_walk": 50,
+      "constant": 50,
+      "stop_go": 50
+    },
+    "noise": {
+      "0.35": 50,
+      "0.0": 50,
+      "0.7": 50,
+      "0.15": 50
+    }
+  },
+  "status": "definitions only; no planner results"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Fresh crossed closed-loop confirmation (internally fixed protocol with code hashes; not externally preregistered)",
+  "frozen_utc": "2026-10-03T13:10:49.798731Z",
+  "scenarios": {
+    "ids": "1000-1199",
+    "n": 200,
+    "sha256": "b81000b4dc7a6bda455cdc6efc57d4eab4ee6d9b61d724559fec5b5a9bc4f0c3",
+    "design": "each factor exactly balanced and independently shuffled (motion x obstacle-count crossed, all 16 cells populated)"
+  },
+  "settings": "frozen from earlier archived tuning; nothing tuned on this set (see PARAMS in fresh_confirmation_run.py)",
+  "primary_method": "DR-T with the age-based deposit and 500-step limit (arm legacy)",
+  "arms": {
+    "legacy": "HB,HBP,DR-T,DR-SAFE age-based deposit (PRIMARY ACO adapter)",
+    "flat": "same four with flat deposit (secondary)",
+    "other": "space-time A*, SIPP-style, D* Lite+DWA, ACO+DWA, ORCA, MPC"
+  },
+  "primary_outcomes": [
+    "any physical collision",
+    "success (reached goal within 45 ticks)"
+  ],
+  "primary_family": "DR-T(legacy) vs each of HB(legacy), HBP(legacy), ACO+DWA, space-time A*, SIPP-style, D* Lite+DWA, ORCA, MPC on both outcomes: exact McNemar on paired scenarios, 16 tests, Holm correction",
+  "secondary": "flat-deposit arm; DR-SAFE vs DR-T; subgroup tables by motion, obstacle count, noise, workspace (descriptive); logistic-free, no inference on subgroups",
+  "caveats": [
+    "one planner seed per scenario",
+    "ORCA/MPC settings are the archived 4-scenario tuning bests (the paper's widened-grid ORCA/MPC settings are not archived)",
+    "ORCA and MPC replan every tick in the archived runner"
+  ],
+  "code_sha256": {
+    "fresh_confirmation_generator.py": "3014c34fd42e672b83b208af88421b5f99651cdd343de01677e07bbd207b25c4",
+    "fresh_confirmation_run.py": "9f7ca774d912f29342cb561d0d309ba7d44b16425b7a90764347425fb2215514",
+    "phase5_runner.py": "a0214491be49c9b7cec1774a4411f92fe129e3b13a85708f42dd94a1dadb59bc",
+    "phase5_adapters.py": "e1278a4aeddd52a6ad181faed07ae94990766a1a0314c0297f23b384c774e847",
+    "phase4_runner_orca_mpc.py": "585f5ffccd0717dce6e6165f912a268abce12291ca4ce4abd92ac62ba829c8df",
+    "orca_mpc_baselines.py": "7d5b422dc7dd81c5f4639461505944826cdf4e7a3b9b6bac281240adb7249a3c",
+    "phase2_scenario_generator.py": "d4dc00eed73e11f11b891aff08be0b5b86c770a094c709b28a8013db69327861",
+    "phase2_estimator.py": "8692f4dfd499a0eff98ac50518b10d43e530eb8e70a096e74364c96399a2647e",
+    "phase2_planners.py": "28eda2ca63f2c44947e6f461905c50784bb6b1a0472daf52678aef13d5fc2db0",
+    "strong_baselines.py": "88946d40b2fafa7e1654a28c079fbfeb1adf3af39214a2146bd4aa6ddb67140b",
+    "phase3_abaco.py": "1645e1ead0e800cfe0608083f6032d3f06d52016f740e6de8883a770fe95ba17",
+    "phase3_abaco_v2.py": "5dd1491a89bca4c0651797e0a84bfcbd3ec74bf54d353de81d18f50bab260ef5"
+  }
+}
