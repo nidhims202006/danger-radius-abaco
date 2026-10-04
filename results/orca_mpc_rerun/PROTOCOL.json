@@ -23,9 +23,10 @@
   },
   "runner": "experiments/phase4_runner_orca_mpc.py:run_scenario",
   "replanning": {
-    "schedule": "replan when tick % 5 == 0 or no planned action remains",
-    "scheduled_interval_ticks": 5,
-    "note": "The runner source schedules replanning every five ticks; it does not replan every tick."
+    "schedule": "ORCA and MPC effectively replan every tick because each method returns a one-step plan that is consumed on the same tick",
+    "nominal_condition": "tick % 5 == 0 or not planned",
+    "nominal_interval_ticks": 5,
+    "note": "The nominal five-tick condition exists but has no effect for ORCA/MPC: planned is empty on the next tick, so they replan every tick."
   },
   "dr_t_comparison_source": {
     "file": "results/phase2_step3_v2/perrun.json",
