@@ -1,0 +1,53 @@
+{
+  "protocol": "ORCA/MPC widened-grid closed-loop rerun",
+  "scenario_generator": "experiments/phase2_scenario_generator.py:generate_scenarios(240)",
+  "scenario_base_seed": 820000,
+  "scenario_ids_inclusive": [
+    4,
+    203
+  ],
+  "scenario_count": 200,
+  "runs_per_scenario_method": 1,
+  "max_ticks": 45,
+  "seed_offset": 0,
+  "methods": {
+    "orca": {
+      "tau": 1.5,
+      "buffer": 0.1
+    },
+    "mpc": {
+      "horizon": 3,
+      "r_safe": 1.5,
+      "w_coll": 5.0
+    }
+  },
+  "runner": "experiments/phase4_runner_orca_mpc.py:run_scenario",
+  "replanning": {
+    "schedule": "replan when tick % 5 == 0 or no planned action remains",
+    "scheduled_interval_ticks": 5,
+    "note": "The runner source schedules replanning every five ticks; it does not replan every tick."
+  },
+  "dr_t_comparison_source": {
+    "file": "results/phase2_step3_v2/perrun.json",
+    "method": "DR-T",
+    "adapter": "primary flat-deposit adapter",
+    "settings": {
+      "R": 3.5,
+      "K": 0.5,
+      "ants": 12,
+      "iterations": 20
+    }
+  },
+  "paired_analysis": {
+    "outcomes": [
+      "success",
+      "any_collision"
+    ],
+    "mcnemar": "exact two-sided binomial test on discordant pairs",
+    "bootstrap": "95% percentile CI on paired percentage-point difference; 4000 resamples",
+    "multiplicity": "Holm correction across four tests"
+  },
+  "code_commit_hash_before_rerun_artifacts": "b4de0bb6df513e968a85e3c8a4b8c8f18233978f",
+  "runner_script": "experiments/orca_mpc_rerun.py",
+  "analysis_script": "experiments/analyze_orca_mpc_rerun.py"
+}

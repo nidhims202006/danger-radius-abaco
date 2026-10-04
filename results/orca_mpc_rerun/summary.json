@@ -1,0 +1,92 @@
+{
+  "scenario_ids": [
+    4,
+    203
+  ],
+  "n_scenarios": 200,
+  "methods": {
+    "orca": {
+      "n": 200,
+      "success_pct": 100.0,
+      "any_collision_pct": 9.5,
+      "mean_path_length": 28.814214613676686,
+      "mean_min_clearance": 1.730896867182962,
+      "mean_planning_time_s": 0.0058841045016379215
+    },
+    "mpc": {
+      "n": 200,
+      "success_pct": 100.0,
+      "any_collision_pct": 3.0,
+      "mean_path_length": 28.90187442651901,
+      "mean_min_clearance": 1.8747689482513805,
+      "mean_planning_time_s": 0.024244674000074157
+    }
+  },
+  "paired_dr_t_comparisons": [
+    {
+      "comparison": "DR-T vs ORCA",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 100.0,
+      "difference_pct_points": -27.500000000000004,
+      "bootstrap_ci95_pct_points": [
+        -34.0,
+        -21.5
+      ],
+      "mcnemar_exact_p": 5.551115123125783e-17,
+      "discordant_dr_t_0_comparator_1": 55,
+      "discordant_dr_t_1_comparator_0": 0,
+      "holm_p_family_of_4": 2.220446049250313e-16
+    },
+    {
+      "comparison": "DR-T vs ORCA",
+      "outcome": "any_collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 9.5,
+      "difference_pct_points": 8.5,
+      "bootstrap_ci95_pct_points": [
+        1.5,
+        15.5
+      ],
+      "mcnemar_exact_p": 0.021294114141387155,
+      "discordant_dr_t_0_comparator_1": 16,
+      "discordant_dr_t_1_comparator_0": 33,
+      "holm_p_family_of_4": 0.021294114141387155
+    },
+    {
+      "comparison": "DR-T vs MPC",
+      "outcome": "success",
+      "n": 200,
+      "dr_t_rate_pct": 72.5,
+      "comparator_rate_pct": 100.0,
+      "difference_pct_points": -27.500000000000004,
+      "bootstrap_ci95_pct_points": [
+        -34.0,
+        -21.5
+      ],
+      "mcnemar_exact_p": 5.551115123125783e-17,
+      "discordant_dr_t_0_comparator_1": 55,
+      "discordant_dr_t_1_comparator_0": 0,
+      "holm_p_family_of_4": 2.220446049250313e-16
+    },
+    {
+      "comparison": "DR-T vs MPC",
+      "outcome": "any_collision",
+      "n": 200,
+      "dr_t_rate_pct": 18.0,
+      "comparator_rate_pct": 3.0,
+      "difference_pct_points": 15.0,
+      "bootstrap_ci95_pct_points": [
+        9.5,
+        20.5
+      ],
+      "mcnemar_exact_p": 2.2721360437572002e-07,
+      "discordant_dr_t_0_comparator_1": 3,
+      "discordant_dr_t_1_comparator_0": 33,
+      "holm_p_family_of_4": 4.5442720875144005e-07
+    }
+  ],
+  "dr_t_source": "results/phase2_step3_v2/perrun.json"
+}
