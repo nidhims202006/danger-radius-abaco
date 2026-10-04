@@ -89,13 +89,7 @@ See `docs/DSTAR_LITE_REPLACEMENT.md`, `docs/DSTAR_LITE_REPRODUCIBILITY.md` and
 
 ## Manuscript number checking
 
-The manuscript is maintained separately. The repository includes the checker:
-
-```bash
-python3 experiments/check_paper_numbers.py /path/to/Danger-Radius_Paper_ESWA_revised_v39.docx
-python3 experiments/check_phase5_numbers.py /path/to/Danger-Radius_Paper_ESWA_revised_v39.docx   # Tables 4A and 4B (run from experiments/)
-```
-
+The manuscript is maintained separately. 
 ## Integrity
 
 `docs/C6_SHA256_MANIFEST.json` is the authoritative SHA-256 manifest for the package contents,
