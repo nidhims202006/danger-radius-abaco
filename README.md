@@ -31,7 +31,7 @@ integrity records needed to inspect and reproduce the reported numerical evidenc
 ## Public release identifiers
 
 - GitHub: https://github.com/nidhims202006/danger-radius-abaco.git
-- Zenodo: 10.5281/zenodo.23125275
+- Zenodo: 10.5281/zenodo.23130425
 
 ## Installation
 
