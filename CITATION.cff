@@ -12,8 +12,8 @@ authors:
     family-names: "RushiMithra"
     affiliation: "Department of Mechanical Engineering, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Chennai, India"
 abstract: "Experiment code, stored results, figures and analysis scripts accompanying the manuscript 'Time-Aligned Danger-Radius Cost Weighting for Dynamic Obstacles in ABACO Grid Path Planning'. The reproducibility archive is publicly deposited on Zenodo under DOI 10.5281/zenodo.23106834."
-doi: "10.5281/zenodo.23125275"
-url: "https://zenodo.org/records/23125275"
+doi: "10.5281/zenodo.23130425"
+url: "https://zenodo.org/records/23130425"
 keywords:
   - ant colony optimisation
   - dynamic obstacle avoidance
